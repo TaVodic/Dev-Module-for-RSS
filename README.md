@@ -1,16 +1,18 @@
-# Tavoda-bachelor-thesis
+# Development Module for Radar Safety Sensor in Single-Track Vehicles
 
-## System blocks
+### Modules on PCB
 * ESP32
-* IMU - Inertial measurement unit
-* Ethernet interface
-* Power supply
-* Speaker for alert signal
-* LEDs
+    * BLE
+    * MAC
+* PHY Ethernet module with connector
+* IMU
+* Power management
+* LED neopixel
+* Buzzer
+* Pogo pins – board to board connector
+* 100BASE-T1 connector
+* ANT+ (need be?)
 
-## Topics for thesis Introduction
+### Block diagram
 
-* ROS 2 Humble
-* uROS
-* RTOS
-* ESP32
+![](docu/BlockDiagram.svg)
