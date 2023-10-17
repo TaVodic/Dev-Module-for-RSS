@@ -13,6 +13,9 @@
 * 100BASE-T1 connector
 * ANT+ (need be?)
 
+### Thesis (read-only)
+https://www.overleaf.com/read/qdtmcycwxqrg
+
 ### Block diagram
 
 ![](docu/BlockDiagram.svg)
