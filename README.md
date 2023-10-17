@@ -4,6 +4,7 @@
 * ESP32
     * BLE
     * MAC
+* CP2102 USB-UART module
 * PHY Ethernet module with connector
 * IMU
 * Power management
