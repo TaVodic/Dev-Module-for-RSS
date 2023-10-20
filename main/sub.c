@@ -22,16 +22,24 @@
 #define RCSOFTCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){printf("Failed status on line %d: %d. Continuing.\n",__LINE__,(int)temp_rc);}}
 
 rcl_publisher_t publisher;
-std_msgs__msg__Int32 msg;
+rcl_subscription_t subscriber;
+std_msgs__msg__Int32 send_msg;
+std_msgs__msg__Int32 recv_msg;
 
 void timer_callback(rcl_timer_t * timer, int64_t last_call_time)
 {
-	RCLC_UNUSED(last_call_time);
+	(void) last_call_time;
 	if (timer != NULL) {
-		printf("Publishing: %d\n", (int) msg.data);
-		RCSOFTCHECK(rcl_publish(&publisher, &msg, NULL));
-		msg.data++;
+		RCSOFTCHECK(rcl_publish(&publisher, &send_msg, NULL));
+		printf("Sent: %d\n",  (int)  send_msg.data);
+		send_msg.data++;
 	}
+}
+
+void subscription_callback(const void * msgin)
+{
+	const std_msgs__msg__Int32 * msg = (const std_msgs__msg__Int32 *)msgin;
+	printf("Received: %d\n",  (int)  msg->data);
 }
 
 void micro_ros_task(void * arg)
@@ -39,6 +47,7 @@ void micro_ros_task(void * arg)
 	rcl_allocator_t allocator = rcl_get_default_allocator();
 	rclc_support_t support;
 
+	// Create init_options.
 	rcl_init_options_t init_options = rcl_get_zero_initialized_init_options();
 	RCCHECK(rcl_init_options_init(&init_options, allocator));
 
@@ -49,43 +58,55 @@ void micro_ros_task(void * arg)
 	RCCHECK(rmw_uros_options_set_udp_address(CONFIG_MICRO_ROS_AGENT_IP, CONFIG_MICRO_ROS_AGENT_PORT, rmw_options));
 	//RCCHECK(rmw_uros_discover_agent(rmw_options));
 #endif
-
-	// create init_options
+	// Setup support structure.
 	RCCHECK(rclc_support_init_with_options(&support, 0, NULL, &init_options, &allocator));
 
-	// create node
-	rcl_node_t node;
-	RCCHECK(rclc_node_init_default(&node, "esp32_int32_publisher", "", &support));
+	// Create node.
+	rcl_node_t node = rcl_get_zero_initialized_node();
+	RCCHECK(rclc_node_init_default(&node, "int32_publisher_subscriber_rclc", "", &support));
 
-	// create publisher
+	// Create publisher.
 	RCCHECK(rclc_publisher_init_default(
 		&publisher,
 		&node,
 		ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Int32),
-		"freertos_int32_publisher"));
+		"int32_publisher"));
 
-	// create timer,
-	rcl_timer_t timer;
-	const unsigned int timer_timeout = 2000;
+	// Create subscriber.
+	RCCHECK(rclc_subscription_init_default(
+		&subscriber,
+		&node,
+		ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Int32),
+		"/std_msgs_msg_Int32"));
+
+	// Create timer.
+	rcl_timer_t timer = rcl_get_zero_initialized_timer();
+	const unsigned int timer_timeout = 1000;
 	RCCHECK(rclc_timer_init_default(
 		&timer,
 		&support,
 		RCL_MS_TO_NS(timer_timeout),
 		timer_callback));
 
-	// create executor
-	rclc_executor_t executor;
-	RCCHECK(rclc_executor_init(&executor, &support.context, 1, &allocator));
+	// Create executor.
+	rclc_executor_t executor = rclc_executor_get_zero_initialized_executor();
+	RCCHECK(rclc_executor_init(&executor, &support.context, 2, &allocator));
+	unsigned int rcl_wait_timeout = 1000;   // in ms
+	RCCHECK(rclc_executor_set_timeout(&executor, RCL_MS_TO_NS(rcl_wait_timeout)));
+
+	// Add timer and subscriber to executor.
 	RCCHECK(rclc_executor_add_timer(&executor, &timer));
+	RCCHECK(rclc_executor_add_subscription(&executor, &subscriber, &recv_msg, &subscription_callback, ON_NEW_DATA));
 
-	msg.data = 0;
-
+	// Spin forever.
+	send_msg.data = 0;
 	while(1){
 		rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100));
-		usleep(10000);
+		usleep(100000);
 	}
 
-	// free resources
+	// Free resources.
+	RCCHECK(rcl_subscription_fini(&subscriber, &node));
 	RCCHECK(rcl_publisher_fini(&publisher, &node));
 	RCCHECK(rcl_node_fini(&node));
 
@@ -99,63 +120,10 @@ void app_main(void)
 #endif
 
     //pin micro-ros task in APP_CPU to make PRO_CPU to deal with wifi:
-    /*xTaskCreate(micro_ros_task,
+    xTaskCreate(micro_ros_task,
             "uros_task",
             CONFIG_MICRO_ROS_APP_STACK,
             NULL,
             CONFIG_MICRO_ROS_APP_TASK_PRIO,
-            NULL);*/
-
-		// Initialize micro-ROS allocator
-
-	rcl_allocator_t allocator = rcl_get_default_allocator();
-	rclc_support_t support;
-
-	rcl_init_options_t init_options = rcl_get_zero_initialized_init_options();
-	RCCHECK(rcl_init_options_init(&init_options, allocator));
-
-#ifdef CONFIG_MICRO_ROS_ESP_XRCE_DDS_MIDDLEWARE
-	rmw_init_options_t* rmw_options = rcl_init_options_get_rmw_init_options(&init_options);
-
-	// Static Agent IP and port can be used instead of autodisvery.
-	RCCHECK(rmw_uros_options_set_udp_address(CONFIG_MICRO_ROS_AGENT_IP, CONFIG_MICRO_ROS_AGENT_PORT, rmw_options));
-	//RCCHECK(rmw_uros_discover_agent(rmw_options));
-#endif
-
-	// create init_options
-	RCCHECK(rclc_support_init_with_options(&support, 0, NULL, &init_options, &allocator));
-
-
-	// create node
-	rcl_node_t node;
-	RCCHECK(rclc_node_init_default(&node, "esp32_int32_publisher", "", &support));
-
-		// Publisher object
-	rcl_publisher_t publisher;
-	const char * topic_name = "test_topic";
-
-	// Get message type support
-	const rosidl_message_type_support_t * type_support =
-	ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Int32);
-
-	// Creates a reliable rcl publisher
-	rcl_ret_t rc = rclc_publisher_init_default(
-	&publisher, &node,
-	type_support, topic_name);
-
-		// Int32 message object
-	std_msgs__msg__Int32 msg;
-
-	// Set message value
-	msg.data = 0;
-
-	while (1)
-	{
-		rcl_ret_t rc = rcl_publish(&publisher, &msg, NULL);
-		printf("=Publishing: %ld\n", msg.data);
-		msg.data++;
-		vTaskDelay(500 / portTICK_PERIOD_MS);
-	}
-
-	
+            NULL);
 }
