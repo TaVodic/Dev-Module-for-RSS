@@ -11,6 +11,7 @@
 * LED neopixel
 * Buzzer
 * Pogo pins – board to board connector
+* GPIO -> radar
 * 100BASE-T1 connector
 * ANT+ (need be?)
 
