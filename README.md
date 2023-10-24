@@ -16,7 +16,7 @@
 * ANT+ (need be?)
 
 ### Thesis (read-only)
-https://www.overleaf.com/read/qdtmcycwxqrg
+https://www.overleaf.com/read/hrqsdpdkjjvk
 
 ### Block diagram
 
