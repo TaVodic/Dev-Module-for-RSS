@@ -24,3 +24,19 @@ https://www.overleaf.com/read/hrqsdpdkjjvk
 
 ![](graphics/BlockDiagram_v3.svg)
 
+### Power management
+
+![](graphics/PowerManagement.svg)
+
+#### Components
+
+* Power multiplexor - TPS2121   
+    https://www.ti.com/lit/ds/symlink/tps2121.pdf?ts=1699904287563&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS2121
+
+* Power monitor - Dual channel PAC1952-1 VQFN16 – **Farnell**
+    https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/PAC195X-Family-Data-Sheet-DS20006539.pdf
+
+* DC/DC 5V -> 3.3V - TPS62140
+    https://datasheet.lcsc.com/lcsc/2304140030_Texas-Instruments-TPS62140RGTR_C138725.pdf
+
+* DC/DC 20V -> [5V 12V] ???
