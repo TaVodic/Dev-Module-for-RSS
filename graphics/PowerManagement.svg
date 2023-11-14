@@ -4,10 +4,10 @@
    height="221.03999pt"
    viewBox="0 0 480.95999 221.03999"
    version="1.1"
-   id="svg394"
+   id="svg408"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg" content="%3Cmxfile%20host%3D%22app.diagrams.net%22%20modified%3D%222023-11-14T13%3A19%3A08.865Z%22%20agent%3D%22Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F119.0.0.0%20Safari%2F537.36%22%20etag%3D%228kuZMv1gmHXDHSoaNayc%22%20version%3D%2222.1.0%22%20type%3D%22google%22%3E%20%20%20%3Cdiagram%20name%3D%22PowerManagement%22%20id%3D%22Xdp3qgnaONbP4wJl-t0e%22%3E%20%20%20%20%20%3CmxGraphModel%20dx%3D%221434%22%20dy%3D%22878%22%20grid%3D%221%22%20gridSize%3D%2210%22%20guides%3D%221%22%20tooltips%3D%221%22%20connect%3D%221%22%20arrows%3D%221%22%20fold%3D%221%22%20page%3D%220%22%20pageScale%3D%221%22%20pageWidth%3D%22827%22%20pageHeight%3D%221169%22%20math%3D%220%22%20shadow%3D%220%22%3E%20%20%20%20%20%20%20%3Croot%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%220%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%221%22%20parent%3D%220%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-2%22%20style%3D%22edgeStyle%3DorthogonalEdgeStyle%3Brounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BexitX%3D0%3BexitY%3D0.5%3BexitDx%3D0%3BexitDy%3D0%3BstartArrow%3Dclassic%3BstartFill%3D1%3BendArrow%3Dnone%3BendFill%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20source%3D%2241QXiy0qCw4idSV6hHy3-1%22%20edge%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%3CmxPoint%20x%3D%22150%22%20y%3D%22340%22%20as%3D%22targetPoint%22%20%2F%3E%20%20%20%20%20%20%20%20%20%20%20%3C%2FmxGeometry%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-5%22%20style%3D%22edgeStyle%3DorthogonalEdgeStyle%3Brounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BexitX%3D1%3BexitY%3D0.25%3BexitDx%3D0%3BexitDy%3D0%3BentryX%3D0%3BentryY%3D0.75%3BentryDx%3D0%3BentryDy%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20source%3D%2241QXiy0qCw4idSV6hHy3-1%22%20target%3D%2241QXiy0qCw4idSV6hHy3-3%22%20edge%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%3CArray%20as%3D%22points%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3CmxPoint%20x%3D%22390%22%20y%3D%22310%22%20%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3CmxPoint%20x%3D%22390%22%20y%3D%22255%22%20%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%2FArray%3E%20%20%20%20%20%20%20%20%20%20%20%3C%2FmxGeometry%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-7%22%20style%3D%22edgeStyle%3DorthogonalEdgeStyle%3Brounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BexitX%3D1%3BexitY%3D0.75%3BexitDx%3D0%3BexitDy%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20source%3D%2241QXiy0qCw4idSV6hHy3-1%22%20edge%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%3CmxPoint%20x%3D%22470%22%20y%3D%22370.1428571428571%22%20as%3D%22targetPoint%22%20%2F%3E%20%20%20%20%20%20%20%20%20%20%20%3C%2FmxGeometry%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-1%22%20value%3D%22DC%2FDC%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22250%22%20y%3D%22280%22%20width%3D%22120%22%20height%3D%22120%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-9%22%20style%3D%22edgeStyle%3DorthogonalEdgeStyle%3Brounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BexitX%3D1%3BexitY%3D0.5%3BexitDx%3D0%3BexitDy%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20source%3D%2241QXiy0qCw4idSV6hHy3-3%22%20target%3D%2241QXiy0qCw4idSV6hHy3-4%22%20edge%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-3%22%20value%3D%22Power%20multiplexor%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22410%22%20y%3D%22210%22%20width%3D%2290%22%20height%3D%2260%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-10%22%20style%3D%22edgeStyle%3DorthogonalEdgeStyle%3Brounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BexitX%3D1%3BexitY%3D0.5%3BexitDx%3D0%3BexitDy%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20source%3D%2241QXiy0qCw4idSV6hHy3-4%22%20edge%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%3CmxPoint%20x%3D%22700%22%20y%3D%22240.1428571428571%22%20as%3D%22targetPoint%22%20%2F%3E%20%20%20%20%20%20%20%20%20%20%20%3C%2FmxGeometry%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-4%22%20value%3D%22DC%2FDC%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22560%22%20y%3D%22210%22%20width%3D%2290%22%20height%3D%2260%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-11%22%20style%3D%22rounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BexitX%3D1%3BexitY%3D0.75%3BexitDx%3D0%3BexitDy%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20edge%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%3CmxPoint%20x%3D%22470%22%20y%3D%22310.1428571428571%22%20as%3D%22targetPoint%22%20%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%3CmxPoint%20x%3D%22370%22%20y%3D%22310%22%20as%3D%22sourcePoint%22%20%2F%3E%20%20%20%20%20%20%20%20%20%20%20%3C%2FmxGeometry%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-12%22%20value%3D%225V%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22320%22%20y%3D%22290%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-13%22%20value%3D%2212V%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22320%22%20y%3D%22350%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-14%22%20value%3D%225V%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22330%22%20y%3D%22200%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-15%22%20value%3D%225V%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22500%22%20y%3D%22210%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-16%22%20value%3D%223.3V%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22650%22%20y%3D%22210%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-17%22%20value%3D%22Neopixel%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22470%22%20y%3D%22290%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-18%22%20value%3D%22Radar%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22470%22%20y%3D%22350%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-19%22%20value%3D%22Logic%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22720%22%20y%3D%22225%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-20%22%20value%3D%22USB%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22140%22%20y%3D%22200%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-21%22%20value%3D%22Battery%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22140%22%20y%3D%22315%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-31%22%20style%3D%22edgeStyle%3DorthogonalEdgeStyle%3Brounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BexitX%3D1%3BexitY%3D0.75%3BexitDx%3D0%3BexitDy%3D0%3Bdashed%3D1%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20source%3D%2241QXiy0qCw4idSV6hHy3-22%22%20edge%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%3CmxPoint%20x%3D%22460%22%20y%3D%22475%22%20as%3D%22targetPoint%22%20%2F%3E%20%20%20%20%20%20%20%20%20%20%20%3C%2FmxGeometry%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-22%22%20value%3D%22Power%20monitor%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22250%22%20y%3D%22430%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-26%22%20style%3D%22edgeStyle%3DorthogonalEdgeStyle%3Brounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BexitX%3D0.5%3BexitY%3D1%3BexitDx%3D0%3BexitDy%3D0%3BentryX%3D1%3BentryY%3D0.5%3BentryDx%3D0%3BentryDy%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20source%3D%2241QXiy0qCw4idSV6hHy3-23%22%20target%3D%2241QXiy0qCw4idSV6hHy3-22%22%20edge%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-23%22%20value%3D%22%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22405%22%20y%3D%22365%22%20width%3D%2230%22%20height%3D%2210%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-25%22%20style%3D%22edgeStyle%3DorthogonalEdgeStyle%3Brounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BexitX%3D0.5%3BexitY%3D1%3BexitDx%3D0%3BexitDy%3D0%3BentryX%3D0%3BentryY%3D0.5%3BentryDx%3D0%3BentryDy%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20source%3D%2241QXiy0qCw4idSV6hHy3-24%22%20target%3D%2241QXiy0qCw4idSV6hHy3-22%22%20edge%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-24%22%20value%3D%22%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22200%22%20y%3D%22335%22%20width%3D%2230%22%20height%3D%2210%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-32%22%20value%3D%22MCU%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22460%22%20y%3D%22460%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-33%22%20style%3D%22rounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BentryX%3D0%3BentryY%3D0.33%3BentryDx%3D0%3BentryDy%3D0%3BentryPerimeter%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20target%3D%2241QXiy0qCw4idSV6hHy3-3%22%20edge%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%3CmxPoint%20x%3D%22400%22%20y%3D%22230.1428571428571%22%20as%3D%22targetPoint%22%20%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%3CmxPoint%20x%3D%22150%22%20y%3D%22230%22%20as%3D%22sourcePoint%22%20%2F%3E%20%20%20%20%20%20%20%20%20%20%20%3C%2FmxGeometry%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-34%22%20value%3D%225V%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22414%22%20y%3D%22285%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-35%22%20value%3D%2212V%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22414%22%20y%3D%22335%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-36%22%20value%3D%2220V%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22240%22%20y%3D%22325%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%3C%2Froot%3E%20%20%20%20%20%3C%2FmxGraphModel%3E%20%20%20%3C%2Fdiagram%3E%20%3C%2Fmxfile%3E%20">
+   xmlns:svg="http://www.w3.org/2000/svg" content="%3Cmxfile%20host%3D%22app.diagrams.net%22%20modified%3D%222023-11-14T14%3A17%3A13.269Z%22%20agent%3D%22Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F119.0.0.0%20Safari%2F537.36%22%20etag%3D%224HN5dHxG14W5atyYrn3R%22%20version%3D%2222.1.0%22%20type%3D%22google%22%3E%20%20%20%3Cdiagram%20name%3D%22PowerManagement%22%20id%3D%22Xdp3qgnaONbP4wJl-t0e%22%3E%20%20%20%20%20%3CmxGraphModel%20dx%3D%22819%22%20dy%3D%22502%22%20grid%3D%221%22%20gridSize%3D%2210%22%20guides%3D%221%22%20tooltips%3D%221%22%20connect%3D%221%22%20arrows%3D%221%22%20fold%3D%221%22%20page%3D%220%22%20pageScale%3D%221%22%20pageWidth%3D%22827%22%20pageHeight%3D%221169%22%20math%3D%220%22%20shadow%3D%220%22%3E%20%20%20%20%20%20%20%3Croot%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%220%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%221%22%20parent%3D%220%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%22AF2Yawy7Ku2fD80Ad6re-4%22%20value%3D%22DC%2FDC%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontFamily%3DComputer%20Modern%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22280%22%20y%3D%22280%22%20width%3D%2290%22%20height%3D%2260%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-5%22%20style%3D%22edgeStyle%3DorthogonalEdgeStyle%3Brounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BexitX%3D1%3BexitY%3D0.25%3BexitDx%3D0%3BexitDy%3D0%3BentryX%3D0%3BentryY%3D0.75%3BentryDx%3D0%3BentryDy%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20target%3D%2241QXiy0qCw4idSV6hHy3-3%22%20edge%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%3CArray%20as%3D%22points%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3CmxPoint%20x%3D%22390%22%20y%3D%22310%22%20%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3CmxPoint%20x%3D%22390%22%20y%3D%22255%22%20%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%2FArray%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%3CmxPoint%20x%3D%22370%22%20y%3D%22310%22%20as%3D%22sourcePoint%22%20%2F%3E%20%20%20%20%20%20%20%20%20%20%20%3C%2FmxGeometry%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-7%22%20style%3D%22edgeStyle%3DorthogonalEdgeStyle%3Brounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BexitX%3D1%3BexitY%3D0.75%3BexitDx%3D0%3BexitDy%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20edge%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%3CmxPoint%20x%3D%22470%22%20y%3D%22380.1428571428571%22%20as%3D%22targetPoint%22%20%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%3CmxPoint%20x%3D%22370%22%20y%3D%22380%22%20as%3D%22sourcePoint%22%20%2F%3E%20%20%20%20%20%20%20%20%20%20%20%3C%2FmxGeometry%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-9%22%20style%3D%22edgeStyle%3DorthogonalEdgeStyle%3Brounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BexitX%3D1%3BexitY%3D0.5%3BexitDx%3D0%3BexitDy%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20source%3D%2241QXiy0qCw4idSV6hHy3-3%22%20target%3D%2241QXiy0qCw4idSV6hHy3-4%22%20edge%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-3%22%20value%3D%22Power%20multiplexor%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22410%22%20y%3D%22210%22%20width%3D%2290%22%20height%3D%2260%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-10%22%20style%3D%22edgeStyle%3DorthogonalEdgeStyle%3Brounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BexitX%3D1%3BexitY%3D0.5%3BexitDx%3D0%3BexitDy%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20source%3D%2241QXiy0qCw4idSV6hHy3-4%22%20edge%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%3CmxPoint%20x%3D%22700%22%20y%3D%22240.1428571428571%22%20as%3D%22targetPoint%22%20%2F%3E%20%20%20%20%20%20%20%20%20%20%20%3C%2FmxGeometry%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-4%22%20value%3D%22DC%2FDC%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22560%22%20y%3D%22210%22%20width%3D%2290%22%20height%3D%2260%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-11%22%20style%3D%22rounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BexitX%3D1%3BexitY%3D0.75%3BexitDx%3D0%3BexitDy%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20edge%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%3CmxPoint%20x%3D%22470%22%20y%3D%22310.1428571428571%22%20as%3D%22targetPoint%22%20%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%3CmxPoint%20x%3D%22370%22%20y%3D%22310%22%20as%3D%22sourcePoint%22%20%2F%3E%20%20%20%20%20%20%20%20%20%20%20%3C%2FmxGeometry%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-13%22%20value%3D%2212V%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22320%22%20y%3D%22350%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-14%22%20value%3D%225V%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22330%22%20y%3D%22200%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-15%22%20value%3D%225V%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22500%22%20y%3D%22210%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-16%22%20value%3D%223.3V%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22650%22%20y%3D%22210%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-17%22%20value%3D%22Neopixel%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22470%22%20y%3D%22290%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-18%22%20value%3D%22Radar%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22470%22%20y%3D%22360%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-19%22%20value%3D%22Logic%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22720%22%20y%3D%22225%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-20%22%20value%3D%22USB%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22140%22%20y%3D%22200%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-21%22%20value%3D%22Battery%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22140%22%20y%3D%22310%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-31%22%20style%3D%22edgeStyle%3DorthogonalEdgeStyle%3Brounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BexitX%3D1%3BexitY%3D0.75%3BexitDx%3D0%3BexitDy%3D0%3Bdashed%3D1%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20source%3D%2241QXiy0qCw4idSV6hHy3-22%22%20edge%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%3CmxPoint%20x%3D%22460%22%20y%3D%22475%22%20as%3D%22targetPoint%22%20%2F%3E%20%20%20%20%20%20%20%20%20%20%20%3C%2FmxGeometry%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-22%22%20value%3D%22Power%20monitor%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22250%22%20y%3D%22430%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-26%22%20style%3D%22edgeStyle%3DorthogonalEdgeStyle%3Brounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BexitX%3D0.5%3BexitY%3D1%3BexitDx%3D0%3BexitDy%3D0%3BentryX%3D1%3BentryY%3D0.5%3BentryDx%3D0%3BentryDy%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20source%3D%2241QXiy0qCw4idSV6hHy3-23%22%20target%3D%2241QXiy0qCw4idSV6hHy3-22%22%20edge%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-23%22%20value%3D%22%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22405%22%20y%3D%22375%22%20width%3D%2230%22%20height%3D%2210%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-25%22%20style%3D%22edgeStyle%3DorthogonalEdgeStyle%3Brounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BexitX%3D0.5%3BexitY%3D1%3BexitDx%3D0%3BexitDy%3D0%3BentryX%3D0%3BentryY%3D0.5%3BentryDx%3D0%3BentryDy%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20source%3D%2241QXiy0qCw4idSV6hHy3-24%22%20target%3D%2241QXiy0qCw4idSV6hHy3-22%22%20edge%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%22AF2Yawy7Ku2fD80Ad6re-6%22%20style%3D%22edgeStyle%3DorthogonalEdgeStyle%3Brounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BexitX%3D1%3BexitY%3D0.5%3BexitDx%3D0%3BexitDy%3D0%3BentryX%3D0%3BentryY%3D0.5%3BentryDx%3D0%3BentryDy%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%20source%3D%2241QXiy0qCw4idSV6hHy3-24%22%20target%3D%22AF2Yawy7Ku2fD80Ad6re-3%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%22AF2Yawy7Ku2fD80Ad6re-9%22%20style%3D%22edgeStyle%3DorthogonalEdgeStyle%3Brounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BexitX%3D1%3BexitY%3D0.5%3BexitDx%3D0%3BexitDy%3D0%3BentryX%3D0%3BentryY%3D0.5%3BentryDx%3D0%3BentryDy%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%20source%3D%2241QXiy0qCw4idSV6hHy3-24%22%20target%3D%22AF2Yawy7Ku2fD80Ad6re-4%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%22AF2Yawy7Ku2fD80Ad6re-10%22%20style%3D%22edgeStyle%3DorthogonalEdgeStyle%3Brounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BexitX%3D0%3BexitY%3D0.5%3BexitDx%3D0%3BexitDy%3D0%3BendArrow%3Dnone%3BendFill%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%20source%3D%2241QXiy0qCw4idSV6hHy3-24%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%3CmxPoint%20x%3D%22150%22%20y%3D%22340%22%20as%3D%22targetPoint%22%20%2F%3E%20%20%20%20%20%20%20%20%20%20%20%3C%2FmxGeometry%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-24%22%20value%3D%22%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22200%22%20y%3D%22335%22%20width%3D%2230%22%20height%3D%2210%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-32%22%20value%3D%22MCU%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22460%22%20y%3D%22460%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-33%22%20style%3D%22rounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3BentryX%3D0%3BentryY%3D0.33%3BentryDx%3D0%3BentryDy%3D0%3BentryPerimeter%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20target%3D%2241QXiy0qCw4idSV6hHy3-3%22%20edge%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%3CmxPoint%20x%3D%22400%22%20y%3D%22230.1428571428571%22%20as%3D%22targetPoint%22%20%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%3CmxPoint%20x%3D%22150%22%20y%3D%22230%22%20as%3D%22sourcePoint%22%20%2F%3E%20%20%20%20%20%20%20%20%20%20%20%3C%2FmxGeometry%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-34%22%20value%3D%225V%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22414%22%20y%3D%22285%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-35%22%20value%3D%2212V%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22414%22%20y%3D%22345%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%2241QXiy0qCw4idSV6hHy3-36%22%20value%3D%2220V%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontFamily%3DComputer%20Modern%3B%22%20parent%3D%221%22%20vertex%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22140%22%20y%3D%22340%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%20%20%3CmxCell%20id%3D%22AF2Yawy7Ku2fD80Ad6re-3%22%20value%3D%22DC%2FDC%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontFamily%3DComputer%20Modern%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%20%20%20%20%20%20%20%20%20%20%20%3CmxGeometry%20x%3D%22280%22%20y%3D%22350%22%20width%3D%2290%22%20height%3D%2260%22%20as%3D%22geometry%22%20%2F%3E%20%20%20%20%20%20%20%20%20%3C%2FmxCell%3E%20%20%20%20%20%20%20%3C%2Froot%3E%20%20%20%20%20%3C%2FmxGraphModel%3E%20%20%20%3C%2Fdiagram%3E%20%3C%2Fmxfile%3E%20">
   <defs
      id="defs116">
     <g
@@ -111,25 +111,25 @@
       <g
          id="glyph-0-16">
         <path
-           d="M 3.90625 -5.953125 L 3.5625 -5.21875 L 1.765625 -5.21875 L 1.375 -4.40625 C 2.15625 -4.289063 2.769531 -4.003906 3.21875 -3.546875 C 3.613281 -3.148438 3.8125 -2.679688 3.8125 -2.140625 C 3.8125 -1.828125 3.742188 -1.535156 3.609375 -1.265625 C 3.484375 -1.003906 3.320313 -0.78125 3.125 -0.59375 C 2.9375 -0.40625 2.722656 -0.253906 2.484375 -0.140625 C 2.148438 0.0234375 1.804688 0.109375 1.453125 0.109375 C 1.097656 0.109375 0.835938 0.046875 0.671875 -0.078125 C 0.515625 -0.203125 0.4375 -0.335938 0.4375 -0.484375 C 0.4375 -0.566406 0.46875 -0.640625 0.53125 -0.703125 C 0.601563 -0.765625 0.6875 -0.796875 0.78125 -0.796875 C 0.863281 -0.796875 0.929688 -0.78125 0.984375 -0.75 C 1.046875 -0.726563 1.144531 -0.671875 1.28125 -0.578125 C 1.5 -0.421875 1.722656 -0.34375 1.953125 -0.34375 C 2.296875 -0.34375 2.59375 -0.472656 2.84375 -0.734375 C 3.101563 -0.992188 3.234375 -1.3125 3.234375 -1.6875 C 3.234375 -2.039063 3.117188 -2.375 2.890625 -2.6875 C 2.660156 -3 2.34375 -3.242188 1.9375 -3.421875 C 1.613281 -3.546875 1.175781 -3.617188 0.625 -3.640625 L 1.765625 -5.953125 Z M 3.90625 -5.953125 "
+           d="M 1.0625 -5.375 L 2.5 -6.078125 L 2.65625 -6.078125 L 2.65625 -1.046875 C 2.65625 -0.710938 2.664063 -0.503906 2.6875 -0.421875 C 2.71875 -0.335938 2.773438 -0.273438 2.859375 -0.234375 C 2.953125 -0.191406 3.132813 -0.164063 3.40625 -0.15625 L 3.40625 0 L 1.15625 0 L 1.15625 -0.15625 C 1.4375 -0.164063 1.617188 -0.191406 1.703125 -0.234375 C 1.785156 -0.273438 1.84375 -0.332031 1.875 -0.40625 C 1.90625 -0.476563 1.921875 -0.691406 1.921875 -1.046875 L 1.921875 -4.265625 C 1.921875 -4.703125 1.90625 -4.984375 1.875 -5.109375 C 1.851563 -5.203125 1.816406 -5.269531 1.765625 -5.3125 C 1.710938 -5.351563 1.648438 -5.375 1.578125 -5.375 C 1.460938 -5.375 1.3125 -5.328125 1.125 -5.234375 Z M 1.0625 -5.375 "
            id="path50" />
       </g>
       <g
          id="glyph-0-17">
         <path
-           d="M 6.390625 -5.953125 L 6.390625 -5.796875 C 6.179688 -5.753906 6.019531 -5.6875 5.90625 -5.59375 C 5.75 -5.445313 5.613281 -5.226563 5.5 -4.9375 L 3.421875 0.140625 L 3.25 0.140625 L 1.03125 -5 C 0.914063 -5.257813 0.832031 -5.421875 0.78125 -5.484375 C 0.707031 -5.578125 0.617188 -5.648438 0.515625 -5.703125 C 0.410156 -5.753906 0.265625 -5.785156 0.078125 -5.796875 L 0.078125 -5.953125 L 2.515625 -5.953125 L 2.515625 -5.796875 C 2.234375 -5.765625 2.050781 -5.71875 1.96875 -5.65625 C 1.894531 -5.59375 1.859375 -5.503906 1.859375 -5.390625 C 1.859375 -5.242188 1.925781 -5.019531 2.0625 -4.71875 L 3.578125 -1.21875 L 4.984375 -4.671875 C 5.117188 -5.003906 5.1875 -5.238281 5.1875 -5.375 C 5.1875 -5.457031 5.144531 -5.535156 5.0625 -5.609375 C 4.976563 -5.691406 4.832031 -5.75 4.625 -5.78125 C 4.613281 -5.78125 4.585938 -5.785156 4.546875 -5.796875 L 4.546875 -5.953125 Z M 6.390625 -5.953125 "
+           d="M 4.125 -1.140625 L 3.703125 0 L 0.1875 0 L 0.1875 -0.15625 C 1.226563 -1.101563 1.957031 -1.875 2.375 -2.46875 C 2.800781 -3.070313 3.015625 -3.617188 3.015625 -4.109375 C 3.015625 -4.492188 2.894531 -4.804688 2.65625 -5.046875 C 2.425781 -5.285156 2.148438 -5.40625 1.828125 -5.40625 C 1.535156 -5.40625 1.269531 -5.316406 1.03125 -5.140625 C 0.800781 -4.972656 0.632813 -4.726563 0.53125 -4.40625 L 0.359375 -4.40625 C 0.429688 -4.945313 0.617188 -5.359375 0.921875 -5.640625 C 1.234375 -5.929688 1.613281 -6.078125 2.0625 -6.078125 C 2.550781 -6.078125 2.957031 -5.921875 3.28125 -5.609375 C 3.601563 -5.304688 3.765625 -4.941406 3.765625 -4.515625 C 3.765625 -4.210938 3.691406 -3.910156 3.546875 -3.609375 C 3.328125 -3.140625 2.976563 -2.640625 2.5 -2.109375 C 1.769531 -1.304688 1.3125 -0.820313 1.125 -0.65625 L 2.6875 -0.65625 C 3 -0.65625 3.21875 -0.664063 3.34375 -0.6875 C 3.476563 -0.71875 3.59375 -0.769531 3.6875 -0.84375 C 3.789063 -0.914063 3.882813 -1.015625 3.96875 -1.140625 Z M 4.125 -1.140625 "
            id="path53" />
       </g>
       <g
          id="glyph-0-18">
         <path
-           d="M 1.0625 -5.375 L 2.5 -6.078125 L 2.65625 -6.078125 L 2.65625 -1.046875 C 2.65625 -0.710938 2.664063 -0.503906 2.6875 -0.421875 C 2.71875 -0.335938 2.773438 -0.273438 2.859375 -0.234375 C 2.953125 -0.191406 3.132813 -0.164063 3.40625 -0.15625 L 3.40625 0 L 1.15625 0 L 1.15625 -0.15625 C 1.4375 -0.164063 1.617188 -0.191406 1.703125 -0.234375 C 1.785156 -0.273438 1.84375 -0.332031 1.875 -0.40625 C 1.90625 -0.476563 1.921875 -0.691406 1.921875 -1.046875 L 1.921875 -4.265625 C 1.921875 -4.703125 1.90625 -4.984375 1.875 -5.109375 C 1.851563 -5.203125 1.816406 -5.269531 1.765625 -5.3125 C 1.710938 -5.351563 1.648438 -5.375 1.578125 -5.375 C 1.460938 -5.375 1.3125 -5.328125 1.125 -5.234375 Z M 1.0625 -5.375 "
+           d="M 6.390625 -5.953125 L 6.390625 -5.796875 C 6.179688 -5.753906 6.019531 -5.6875 5.90625 -5.59375 C 5.75 -5.445313 5.613281 -5.226563 5.5 -4.9375 L 3.421875 0.140625 L 3.25 0.140625 L 1.03125 -5 C 0.914063 -5.257813 0.832031 -5.421875 0.78125 -5.484375 C 0.707031 -5.578125 0.617188 -5.648438 0.515625 -5.703125 C 0.410156 -5.753906 0.265625 -5.785156 0.078125 -5.796875 L 0.078125 -5.953125 L 2.515625 -5.953125 L 2.515625 -5.796875 C 2.234375 -5.765625 2.050781 -5.71875 1.96875 -5.65625 C 1.894531 -5.59375 1.859375 -5.503906 1.859375 -5.390625 C 1.859375 -5.242188 1.925781 -5.019531 2.0625 -4.71875 L 3.578125 -1.21875 L 4.984375 -4.671875 C 5.117188 -5.003906 5.1875 -5.238281 5.1875 -5.375 C 5.1875 -5.457031 5.144531 -5.535156 5.0625 -5.609375 C 4.976563 -5.691406 4.832031 -5.75 4.625 -5.78125 C 4.613281 -5.78125 4.585938 -5.785156 4.546875 -5.796875 L 4.546875 -5.953125 Z M 6.390625 -5.953125 "
            id="path56" />
       </g>
       <g
          id="glyph-0-19">
         <path
-           d="M 4.125 -1.140625 L 3.703125 0 L 0.1875 0 L 0.1875 -0.15625 C 1.226563 -1.101563 1.957031 -1.875 2.375 -2.46875 C 2.800781 -3.070313 3.015625 -3.617188 3.015625 -4.109375 C 3.015625 -4.492188 2.894531 -4.804688 2.65625 -5.046875 C 2.425781 -5.285156 2.148438 -5.40625 1.828125 -5.40625 C 1.535156 -5.40625 1.269531 -5.316406 1.03125 -5.140625 C 0.800781 -4.972656 0.632813 -4.726563 0.53125 -4.40625 L 0.359375 -4.40625 C 0.429688 -4.945313 0.617188 -5.359375 0.921875 -5.640625 C 1.234375 -5.929688 1.613281 -6.078125 2.0625 -6.078125 C 2.550781 -6.078125 2.957031 -5.921875 3.28125 -5.609375 C 3.601563 -5.304688 3.765625 -4.941406 3.765625 -4.515625 C 3.765625 -4.210938 3.691406 -3.910156 3.546875 -3.609375 C 3.328125 -3.140625 2.976563 -2.640625 2.5 -2.109375 C 1.769531 -1.304688 1.3125 -0.820313 1.125 -0.65625 L 2.6875 -0.65625 C 3 -0.65625 3.21875 -0.664063 3.34375 -0.6875 C 3.476563 -0.71875 3.59375 -0.769531 3.6875 -0.84375 C 3.789063 -0.914063 3.882813 -1.015625 3.96875 -1.140625 Z M 4.125 -1.140625 "
+           d="M 3.90625 -5.953125 L 3.5625 -5.21875 L 1.765625 -5.21875 L 1.375 -4.40625 C 2.15625 -4.289063 2.769531 -4.003906 3.21875 -3.546875 C 3.613281 -3.148438 3.8125 -2.679688 3.8125 -2.140625 C 3.8125 -1.828125 3.742188 -1.535156 3.609375 -1.265625 C 3.484375 -1.003906 3.320313 -0.78125 3.125 -0.59375 C 2.9375 -0.40625 2.722656 -0.253906 2.484375 -0.140625 C 2.148438 0.0234375 1.804688 0.109375 1.453125 0.109375 C 1.097656 0.109375 0.835938 0.046875 0.671875 -0.078125 C 0.515625 -0.203125 0.4375 -0.335938 0.4375 -0.484375 C 0.4375 -0.566406 0.46875 -0.640625 0.53125 -0.703125 C 0.601563 -0.765625 0.6875 -0.796875 0.78125 -0.796875 C 0.863281 -0.796875 0.929688 -0.78125 0.984375 -0.75 C 1.046875 -0.726563 1.144531 -0.671875 1.28125 -0.578125 C 1.5 -0.421875 1.722656 -0.34375 1.953125 -0.34375 C 2.296875 -0.34375 2.59375 -0.472656 2.84375 -0.734375 C 3.101563 -0.992188 3.234375 -1.3125 3.234375 -1.6875 C 3.234375 -2.039063 3.117188 -2.375 2.890625 -2.6875 C 2.660156 -3 2.34375 -3.242188 1.9375 -3.421875 C 1.613281 -3.546875 1.175781 -3.617188 0.625 -3.640625 L 1.765625 -5.953125 Z M 3.90625 -5.953125 "
            id="path59" />
       </g>
       <g
@@ -240,29 +240,48 @@
     </clipPath>
   </defs>
   <path
-     fill="none"
-     stroke-width="1"
-     stroke-linecap="butt"
-     stroke-linejoin="miter"
-     stroke="rgb(0%, 0%, 0%)"
-     stroke-opacity="1"
-     stroke-miterlimit="10"
-     d="M 103.628156 139.999872 L 9.99975 139.999872 "
-     transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
-     id="path118" />
-  <path
      fill-rule="nonzero"
-     fill="rgb(0%, 0%, 0%)"
+     fill="rgb(100%, 100%, 100%)"
      fill-opacity="1"
      stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
      stroke="rgb(0%, 0%, 0%)"
      stroke-opacity="1"
-     stroke-miterlimit="10"
-     d="M 108.880634 139.999872 L 101.879065 143.498053 L 103.628156 139.999872 L 101.879065 136.50169 Z M 108.880634 139.999872 "
+     stroke-miterlimit="4"
+     d="M 149.000401 79.999815 L 220.999427 79.999815 C 221.592869 79.999815 222.175899 80.057077 222.753723 80.171601 C 223.336754 80.286125 223.898961 80.45791 224.445552 80.686958 C 224.992143 80.9108 225.5075 81.186698 226.002035 81.514653 C 226.491363 81.842607 226.944253 82.217412 227.365909 82.633863 C 227.782359 83.055518 228.157164 83.508408 228.485119 83.997737 C 228.813073 84.492271 229.088971 85.007628 229.312813 85.554219 C 229.541861 86.10081 229.713647 86.663018 229.82817 87.246048 C 229.942694 87.823873 229.999956 88.406903 229.999956 89.000344 L 229.999956 130.999343 C 229.999956 131.592784 229.942694 132.175814 229.82817 132.753639 C 229.713647 133.336669 229.541861 133.898877 229.312813 134.445468 C 229.088971 134.992058 228.813073 135.507416 228.485119 136.00195 C 228.157164 136.491279 227.782359 136.944169 227.365909 137.365824 C 226.944253 137.782274 226.491363 138.15708 226.002035 138.485034 C 225.5075 138.812989 224.992143 139.088887 224.445552 139.312729 C 223.898961 139.541776 223.336754 139.713562 222.753723 139.828086 C 222.175899 139.94261 221.592869 139.999872 220.999427 139.999872 L 149.000401 139.999872 C 148.406959 139.999872 147.823929 139.94261 147.246104 139.828086 C 146.663074 139.713562 146.100866 139.541776 145.554276 139.312729 C 145.007685 139.088887 144.492328 138.812989 143.997793 138.485034 C 143.508464 138.15708 143.055575 137.782274 142.633919 137.365824 C 142.217469 136.944169 141.842664 136.491279 141.514709 136.00195 C 141.186755 135.507416 140.910856 134.992058 140.687014 134.445468 C 140.457967 133.898877 140.286181 133.336669 140.171657 132.753639 C 140.057133 132.175814 139.999872 131.592784 139.999872 130.999343 L 139.999872 89.000344 C 139.999872 88.406903 140.057133 87.823873 140.171657 87.246048 C 140.286181 86.663018 140.457967 86.10081 140.687014 85.554219 C 140.910856 85.007628 141.186755 84.492271 141.514709 83.997737 C 141.842664 83.508408 142.217469 83.055518 142.633919 82.633863 C 143.055575 82.217412 143.508464 81.842607 143.997793 81.514653 C 144.492328 81.186698 145.007685 80.9108 145.554276 80.686958 C 146.100866 80.45791 146.663074 80.286125 147.246104 80.171601 C 147.823929 80.057077 148.406959 79.999815 149.000401 79.999815 Z M 149.000401 79.999815 "
      transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
-     id="path120" />
+     id="path118" />
+  <g
+     fill="#000000"
+     fill-opacity="1"
+     id="g130">
+    <use
+       xlink:href="#glyph-0-1"
+       x="125.05717"
+       y="85.544449"
+       id="use120" />
+    <use
+       xlink:href="#glyph-0-2"
+       x="131.56006"
+       y="85.544449"
+       id="use122" />
+    <use
+       xlink:href="#glyph-0-3"
+       x="137.56612"
+       y="85.544449"
+       id="use124" />
+    <use
+       xlink:href="#glyph-0-1"
+       x="140.0679"
+       y="85.544449"
+       id="use126" />
+    <use
+       xlink:href="#glyph-0-2"
+       x="146.57079"
+       y="85.544449"
+       id="use128" />
+  </g>
   <path
      fill="none"
      stroke-width="1"
@@ -273,7 +292,7 @@
      stroke-miterlimit="10"
      d="M 229.999956 109.999843 L 249.999975 109.999843 L 249.999975 55.002395 L 263.628306 55.002395 "
      transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
-     id="path122" />
+     id="path132" />
   <path
      fill-rule="nonzero"
      fill="rgb(0%, 0%, 0%)"
@@ -286,7 +305,7 @@
      stroke-miterlimit="10"
      d="M 268.880784 55.002395 L 261.879216 58.500576 L 263.628306 55.002395 L 261.879216 51.499008 Z M 268.880784 55.002395 "
      transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
-     id="path124" />
+     id="path134" />
   <path
      fill="none"
      stroke-width="1"
@@ -295,9 +314,9 @@
      stroke="rgb(0%, 0%, 0%)"
      stroke-opacity="1"
      stroke-miterlimit="10"
-     d="M 229.999956 169.9999 L 280.000003 169.9999 L 323.628363 170.119629 "
+     d="M 229.999956 179.999909 L 280.499743 180.499649 L 323.628363 180.192517 "
      transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
-     id="path126" />
+     id="path136" />
   <path
      fill-rule="nonzero"
      fill="rgb(0%, 0%, 0%)"
@@ -308,52 +327,9 @@
      stroke="rgb(0%, 0%, 0%)"
      stroke-opacity="1"
      stroke-miterlimit="10"
-     d="M 328.88084 170.140452 L 321.868861 173.61781 L 323.628363 170.119629 L 321.889683 166.621448 Z M 328.88084 170.140452 "
+     d="M 328.88084 180.150872 L 321.910506 183.70111 L 323.628363 180.192517 L 321.858449 176.699542 Z M 328.88084 180.150872 "
      transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
-     id="path128" />
-  <path
-     fill-rule="nonzero"
-     fill="rgb(100%, 100%, 100%)"
-     fill-opacity="1"
-     stroke-width="1"
-     stroke-linecap="butt"
-     stroke-linejoin="miter"
-     stroke="rgb(0%, 0%, 0%)"
-     stroke-opacity="1"
-     stroke-miterlimit="4"
-     d="M 128.000901 79.999815 L 211.998898 79.999815 C 213.180575 79.999815 214.351841 80.114339 215.512696 80.343387 C 216.668345 80.57764 217.797966 80.916006 218.885942 81.368895 C 219.979124 81.821785 221.015044 82.378787 221.998907 83.034696 C 222.982771 83.690605 223.893756 84.435009 224.726656 85.273115 C 225.564762 86.106016 226.309167 87.017 226.965076 88.000864 C 227.620985 88.984727 228.177987 90.020647 228.630876 91.113829 C 229.083766 92.201805 229.422131 93.331426 229.656385 94.487075 C 229.885432 95.64793 229.999956 96.819196 229.999956 98.000873 L 229.999956 181.99887 C 229.999956 183.180547 229.885432 184.351813 229.656385 185.512668 C 229.422131 186.668317 229.083766 187.797938 228.630876 188.885914 C 228.177987 189.979096 227.620985 191.015016 226.965076 191.998879 C 226.309167 192.982743 225.564762 193.893727 224.726656 194.726628 C 223.893756 195.564734 222.982771 196.309138 221.998907 196.965047 C 221.015044 197.620956 219.979124 198.177958 218.885942 198.630848 C 217.797966 199.083738 216.668345 199.422103 215.512696 199.656357 C 214.351841 199.885404 213.180575 199.999928 211.998898 199.999928 L 128.000901 199.999928 C 126.819224 199.999928 125.647958 199.885404 124.487103 199.656357 C 123.331454 199.422103 122.201833 199.083738 121.113857 198.630848 C 120.020675 198.177958 118.984756 197.620956 118.000892 196.965047 C 117.017029 196.309138 116.106044 195.564734 115.273144 194.726628 C 114.435038 193.893727 113.690633 192.982743 113.034724 191.998879 C 112.378815 191.015016 111.821813 189.979096 111.368923 188.885914 C 110.916034 187.797938 110.577668 186.668317 110.343415 185.512668 C 110.114367 184.351813 109.999843 183.180547 109.999843 181.99887 L 109.999843 98.000873 C 109.999843 96.819196 110.114367 95.64793 110.343415 94.487075 C 110.577668 93.331426 110.916034 92.201805 111.368923 91.113829 C 111.821813 90.020647 112.378815 88.984727 113.034724 88.000864 C 113.690633 87.017 114.435038 86.106016 115.273144 85.273115 C 116.106044 84.435009 117.017029 83.690605 118.000892 83.034696 C 118.984756 82.378787 120.020675 81.821785 121.113857 81.368895 C 122.201833 80.916006 123.331454 80.57764 124.487103 80.343387 C 125.647958 80.114339 126.819224 79.999815 128.000901 79.999815 Z M 128.000901 79.999815 "
-     transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
-     id="path130" />
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g142">
-    <use
-       xlink:href="#glyph-0-1"
-       x="113.80132"
-       y="108.05615"
-       id="use132" />
-    <use
-       xlink:href="#glyph-0-2"
-       x="120.30421"
-       y="108.05615"
-       id="use134" />
-    <use
-       xlink:href="#glyph-0-3"
-       x="126.31026"
-       y="108.05615"
-       id="use136" />
-    <use
-       xlink:href="#glyph-0-1"
-       x="128.81206"
-       y="108.05615"
-       id="use138" />
-    <use
-       xlink:href="#glyph-0-2"
-       x="135.31494"
-       y="108.05615"
-       id="use140" />
-  </g>
+     id="path138" />
   <path
      fill="none"
      stroke-width="1"
@@ -364,7 +340,7 @@
      stroke-miterlimit="10"
      d="M 360.000078 39.999778 L 413.628447 39.999778 "
      transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
-     id="path144" />
+     id="path140" />
   <path
      fill-rule="nonzero"
      fill="rgb(0%, 0%, 0%)"
@@ -377,7 +353,7 @@
      stroke-miterlimit="10"
      d="M 418.880925 39.999778 L 411.879356 43.497959 L 413.628447 39.999778 L 411.879356 36.501596 Z M 418.880925 39.999778 "
      transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
-     id="path146" />
+     id="path142" />
   <path
      fill-rule="nonzero"
      fill="rgb(100%, 100%, 100%)"
@@ -390,96 +366,96 @@
      stroke-miterlimit="4"
      d="M 279.000523 9.99975 L 350.999549 9.99975 C 351.592991 9.99975 352.176021 10.057011 352.753845 10.171535 C 353.336876 10.286059 353.899083 10.457845 354.445674 10.686892 C 354.992265 10.910734 355.507622 11.186633 356.002157 11.514587 C 356.491485 11.842542 356.944375 12.217347 357.366031 12.633797 C 357.782481 13.055453 358.157286 13.508342 358.485241 13.997671 C 358.813195 14.492206 359.089093 15.007563 359.312935 15.554154 C 359.541983 16.100744 359.713769 16.662952 359.828292 17.245982 C 359.942816 17.823807 360.000078 18.406837 360.000078 19.000279 L 360.000078 60.999277 C 360.000078 61.592718 359.942816 62.175749 359.828292 62.753573 C 359.713769 63.336603 359.541983 63.898811 359.312935 64.445402 C 359.089093 64.991993 358.813195 65.50735 358.485241 66.001884 C 358.157286 66.491213 357.782481 66.944103 357.366031 67.365759 C 356.944375 67.782209 356.491485 68.157014 356.002157 68.484968 C 355.507622 68.812923 354.992265 69.088821 354.445674 69.312663 C 353.899083 69.541711 353.336876 69.713496 352.753845 69.82802 C 352.176021 69.942544 351.592991 69.999806 350.999549 69.999806 L 279.000523 69.999806 C 278.407081 69.999806 277.824051 69.942544 277.246226 69.82802 C 276.663196 69.713496 276.100988 69.541711 275.554398 69.312663 C 275.007807 69.088821 274.49245 68.812923 273.997915 68.484968 C 273.508586 68.157014 273.055697 67.782209 272.634041 67.365759 C 272.217591 66.944103 271.842786 66.491213 271.514831 66.001884 C 271.186877 65.50735 270.910978 64.991993 270.687136 64.445402 C 270.458089 63.898811 270.286303 63.336603 270.171779 62.753573 C 270.057255 62.175749 269.999994 61.592718 269.999994 60.999277 L 269.999994 19.000279 C 269.999994 18.406837 270.057255 17.823807 270.171779 17.245982 C 270.286303 16.662952 270.458089 16.100744 270.687136 15.554154 C 270.910978 15.007563 271.186877 14.492206 271.514831 13.997671 C 271.842786 13.508342 272.217591 13.055453 272.634041 12.633797 C 273.055697 12.217347 273.508586 11.842542 273.997915 11.514587 C 274.49245 11.186633 275.007807 10.910734 275.554398 10.686892 C 276.100988 10.457845 276.663196 10.286059 277.246226 10.171535 C 277.824051 10.057011 278.407081 9.99975 279.000523 9.99975 Z M 279.000523 9.99975 "
      transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
-     id="path148" />
+     id="path144" />
   <g
      fill="#000000"
      fill-opacity="1"
-     id="g160">
+     id="g156">
     <use
        xlink:href="#glyph-0-4"
        x="224.85902"
        y="27.764427"
-       id="use150" />
+       id="use146" />
     <use
        xlink:href="#glyph-0-5"
        x="229.867"
        y="27.764427"
-       id="use152" />
+       id="use148" />
     <use
        xlink:href="#glyph-0-6"
        x="234.36934"
        y="27.764427"
-       id="use154" />
+       id="use150" />
     <use
        xlink:href="#glyph-0-7"
        x="240.87224"
        y="27.764427"
-       id="use156" />
+       id="use152" />
     <use
        xlink:href="#glyph-0-8"
        x="244.86894"
        y="27.764427"
-       id="use158" />
+       id="use154" />
   </g>
   <g
      fill="#000000"
      fill-opacity="1"
-     id="g184">
+     id="g180">
     <use
        xlink:href="#glyph-0-9"
        x="215.36191"
        y="39.020275"
-       id="use162" />
+       id="use158" />
     <use
        xlink:href="#glyph-0-10"
        x="222.36603"
        y="39.020275"
-       id="use164" />
+       id="use160" />
     <use
        xlink:href="#glyph-0-11"
        x="226.86838"
        y="39.020275"
-       id="use166" />
+       id="use162" />
     <use
        xlink:href="#glyph-0-12"
        x="229.37016"
        y="39.020275"
-       id="use168" />
+       id="use164" />
     <use
        xlink:href="#glyph-0-13"
        x="231.87195"
        y="39.020275"
-       id="use170" />
+       id="use166" />
     <use
        xlink:href="#glyph-0-14"
        x="234.37373"
        y="39.020275"
-       id="use172" />
+       id="use168" />
     <use
        xlink:href="#glyph-0-11"
        x="238.87608"
        y="39.020275"
-       id="use174" />
+       id="use170" />
     <use
        xlink:href="#glyph-0-7"
        x="241.37787"
        y="39.020275"
-       id="use176" />
+       id="use172" />
     <use
        xlink:href="#glyph-0-15"
        x="245.37457"
        y="39.020275"
-       id="use178" />
+       id="use174" />
     <use
        xlink:href="#glyph-0-5"
        x="249.87691"
        y="39.020275"
-       id="use180" />
+       id="use176" />
     <use
        xlink:href="#glyph-0-8"
        x="254.37926"
        y="39.020275"
-       id="use182" />
+       id="use178" />
   </g>
   <path
      fill="none"
@@ -491,7 +467,7 @@
      stroke-miterlimit="10"
      d="M 510.000219 39.999778 L 534.997639 39.999778 L 553.628578 40.109096 "
      transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
-     id="path186" />
+     id="path182" />
   <path
      fill-rule="nonzero"
      fill="rgb(0%, 0%, 0%)"
@@ -504,7 +480,7 @@
      stroke-miterlimit="10"
      d="M 558.881056 40.14033 L 551.858665 43.602072 L 553.628578 40.109096 L 551.90031 36.600503 Z M 558.881056 40.14033 "
      transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
-     id="path188" />
+     id="path184" />
   <path
      fill-rule="nonzero"
      fill="rgb(100%, 100%, 100%)"
@@ -517,36 +493,36 @@
      stroke-miterlimit="4"
      d="M 429.000663 9.99975 L 500.99969 9.99975 C 501.593131 9.99975 502.176162 10.057011 502.753986 10.171535 C 503.337016 10.286059 503.899224 10.457845 504.445815 10.686892 C 504.992406 10.910734 505.507763 11.186633 506.002297 11.514587 C 506.491626 11.842542 506.944516 12.217347 507.366172 12.633797 C 507.782622 13.055453 508.157427 13.508342 508.485381 13.997671 C 508.813336 14.492206 509.089234 15.007563 509.313076 15.554154 C 509.542124 16.100744 509.713909 16.662952 509.828433 17.245982 C 509.942957 17.823807 510.000219 18.406837 510.000219 19.000279 L 510.000219 60.999277 C 510.000219 61.592718 509.942957 62.175749 509.828433 62.753573 C 509.713909 63.336603 509.542124 63.898811 509.313076 64.445402 C 509.089234 64.991993 508.813336 65.50735 508.485381 66.001884 C 508.157427 66.491213 507.782622 66.944103 507.366172 67.365759 C 506.944516 67.782209 506.491626 68.157014 506.002297 68.484968 C 505.507763 68.812923 504.992406 69.088821 504.445815 69.312663 C 503.899224 69.541711 503.337016 69.713496 502.753986 69.82802 C 502.176162 69.942544 501.593131 69.999806 500.99969 69.999806 L 429.000663 69.999806 C 428.407222 69.999806 427.824192 69.942544 427.246367 69.82802 C 426.663337 69.713496 426.101129 69.541711 425.554538 69.312663 C 425.007948 69.088821 424.49259 68.812923 423.998056 68.484968 C 423.508727 68.157014 423.055837 67.782209 422.634182 67.365759 C 422.217731 66.944103 421.842926 66.491213 421.514972 66.001884 C 421.187017 65.50735 420.911119 64.991993 420.687277 64.445402 C 420.45823 63.898811 420.286444 63.336603 420.17192 62.753573 C 420.057396 62.175749 420.000134 61.592718 420.000134 60.999277 L 420.000134 19.000279 C 420.000134 18.406837 420.057396 17.823807 420.17192 17.245982 C 420.286444 16.662952 420.45823 16.100744 420.687277 15.554154 C 420.911119 15.007563 421.187017 14.492206 421.514972 13.997671 C 421.842926 13.508342 422.217731 13.055453 422.634182 12.633797 C 423.055837 12.217347 423.508727 11.842542 423.998056 11.514587 C 424.49259 11.186633 425.007948 10.910734 425.554538 10.686892 C 426.101129 10.457845 426.663337 10.286059 427.246367 10.171535 C 427.824192 10.057011 428.407222 9.99975 429.000663 9.99975 Z M 429.000663 9.99975 "
      transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
-     id="path190" />
+     id="path186" />
   <g
      fill="#000000"
      fill-opacity="1"
-     id="g202">
+     id="g198">
     <use
        xlink:href="#glyph-0-1"
        x="335.16635"
        y="33.017159"
-       id="use192" />
+       id="use188" />
     <use
        xlink:href="#glyph-0-2"
        x="341.66925"
        y="33.017159"
-       id="use194" />
+       id="use190" />
     <use
        xlink:href="#glyph-0-3"
        x="347.67529"
        y="33.017159"
-       id="use196" />
+       id="use192" />
     <use
        xlink:href="#glyph-0-1"
        x="350.17706"
        y="33.017159"
-       id="use198" />
+       id="use194" />
     <use
        xlink:href="#glyph-0-2"
        x="356.67996"
        y="33.017159"
-       id="use200" />
+       id="use196" />
   </g>
   <path
      fill="none"
@@ -558,7 +534,7 @@
      stroke-miterlimit="10"
      d="M 229.999956 109.999843 L 323.628363 110.129984 "
      transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
-     id="path204" />
+     id="path200" />
   <path
      fill-rule="nonzero"
      fill="rgb(0%, 0%, 0%)"
@@ -571,277 +547,262 @@
      stroke-miterlimit="10"
      d="M 328.88084 110.140395 L 321.879272 113.628165 L 323.628363 110.129984 L 321.889683 106.631803 Z M 328.88084 110.140395 "
      transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
-     id="path206" />
+     id="path202" />
   <g
      fill="#000000"
      fill-opacity="1"
-     id="g212">
+     id="g210">
     <use
        xlink:href="#glyph-0-16"
-       x="152.07121"
-       y="81.792503"
-       id="use208" />
-    <use
-       xlink:href="#glyph-0-17"
-       x="156.57355"
-       y="81.792503"
-       id="use210" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g220">
-    <use
-       xlink:href="#glyph-0-18"
        x="149.82004"
        y="126.8159"
-       id="use214" />
-    <use
-       xlink:href="#glyph-0-19"
-       x="154.32237"
-       y="126.8159"
-       id="use216" />
+       id="use204" />
     <use
        xlink:href="#glyph-0-17"
+       x="154.32237"
+       y="126.8159"
+       id="use206" />
+    <use
+       xlink:href="#glyph-0-18"
        x="158.82472"
        y="126.8159"
-       id="use218" />
+       id="use208" />
   </g>
   <g
      fill="#000000"
      fill-opacity="1"
-     id="g226">
+     id="g216">
     <use
-       xlink:href="#glyph-0-16"
+       xlink:href="#glyph-0-19"
        x="159.5751"
        y="14.257408"
-       id="use222" />
+       id="use212" />
     <use
-       xlink:href="#glyph-0-17"
+       xlink:href="#glyph-0-18"
        x="164.07745"
        y="14.257408"
-       id="use224" />
+       id="use214" />
+  </g>
+  <g
+     fill="#000000"
+     fill-opacity="1"
+     id="g222">
+    <use
+       xlink:href="#glyph-0-19"
+       x="287.14139"
+       y="21.761309"
+       id="use218" />
+    <use
+       xlink:href="#glyph-0-18"
+       x="291.64374"
+       y="21.761309"
+       id="use220" />
   </g>
   <g
      fill="#000000"
      fill-opacity="1"
      id="g232">
     <use
-       xlink:href="#glyph-0-16"
-       x="287.14139"
+       xlink:href="#glyph-0-20"
+       x="396.32312"
+       y="21.761309"
+       id="use224" />
+    <use
+       xlink:href="#glyph-0-21"
+       x="400.82547"
+       y="21.761309"
+       id="use226" />
+    <use
+       xlink:href="#glyph-0-20"
+       x="403.07663"
        y="21.761309"
        id="use228" />
     <use
-       xlink:href="#glyph-0-17"
-       x="291.64374"
+       xlink:href="#glyph-0-18"
+       x="407.57898"
        y="21.761309"
        id="use230" />
   </g>
   <g
      fill="#000000"
      fill-opacity="1"
-     id="g242">
-    <use
-       xlink:href="#glyph-0-20"
-       x="396.32312"
-       y="21.761309"
-       id="use234" />
-    <use
-       xlink:href="#glyph-0-21"
-       x="400.82547"
-       y="21.761309"
-       id="use236" />
-    <use
-       xlink:href="#glyph-0-20"
-       x="403.07663"
-       y="21.761309"
-       id="use238" />
-    <use
-       xlink:href="#glyph-0-17"
-       x="407.57898"
-       y="21.761309"
-       id="use240" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g260">
+     id="g250">
     <use
        xlink:href="#glyph-0-22"
        x="253.63179"
        y="81.792503"
-       id="use244" />
+       id="use234" />
     <use
        xlink:href="#glyph-0-7"
        x="260.13467"
        y="81.792503"
-       id="use246" />
+       id="use236" />
     <use
        xlink:href="#glyph-0-5"
        x="264.13138"
        y="81.792503"
-       id="use248" />
+       id="use238" />
     <use
        xlink:href="#glyph-0-14"
        x="268.63373"
        y="81.792503"
-       id="use250" />
+       id="use240" />
     <use
        xlink:href="#glyph-0-13"
        x="273.13608"
        y="81.792503"
-       id="use252" />
+       id="use242" />
     <use
        xlink:href="#glyph-0-15"
        x="275.63785"
        y="81.792503"
-       id="use254" />
+       id="use244" />
     <use
        xlink:href="#glyph-0-7"
        x="280.1402"
        y="81.792503"
-       id="use256" />
+       id="use246" />
     <use
        xlink:href="#glyph-0-11"
        x="284.1369"
        y="81.792503"
-       id="use258" />
+       id="use248" />
   </g>
   <g
      fill="#000000"
      fill-opacity="1"
-     id="g272">
+     id="g262">
     <use
        xlink:href="#glyph-0-23"
        x="259.3887"
-       y="126.8159"
-       id="use262" />
+       y="134.31979"
+       id="use252" />
     <use
        xlink:href="#glyph-0-24"
        x="265.39474"
-       y="126.8159"
-       id="use264" />
+       y="134.31979"
+       id="use254" />
     <use
        xlink:href="#glyph-0-25"
        x="269.39145"
-       y="126.8159"
-       id="use266" />
+       y="134.31979"
+       id="use256" />
     <use
        xlink:href="#glyph-0-24"
        x="273.8938"
-       y="126.8159"
-       id="use268" />
+       y="134.31979"
+       id="use258" />
     <use
        xlink:href="#glyph-0-8"
        x="277.8905"
-       y="126.8159"
-       id="use270" />
+       y="134.31979"
+       id="use260" />
   </g>
   <g
      fill="#000000"
      fill-opacity="1"
-     id="g284">
+     id="g274">
     <use
        xlink:href="#glyph-0-26"
        x="447.23239"
        y="33.017159"
-       id="use274" />
+       id="use264" />
     <use
        xlink:href="#glyph-0-5"
        x="452.73282"
        y="33.017159"
-       id="use276" />
+       id="use266" />
     <use
        xlink:href="#glyph-0-27"
        x="457.23514"
        y="33.017159"
-       id="use278" />
+       id="use268" />
     <use
        xlink:href="#glyph-0-13"
        x="461.73749"
        y="33.017159"
-       id="use280" />
+       id="use270" />
     <use
        xlink:href="#glyph-0-28"
        x="464.23929"
        y="33.017159"
-       id="use282" />
+       id="use272" />
   </g>
   <g
      fill="#000000"
      fill-opacity="1"
-     id="g292">
+     id="g282">
     <use
        xlink:href="#glyph-0-29"
        x="13.75324"
        y="14.257408"
-       id="use286" />
+       id="use276" />
     <use
        xlink:href="#glyph-0-30"
        x="20.25613"
        y="14.257408"
-       id="use288" />
+       id="use278" />
     <use
        xlink:href="#glyph-0-31"
        x="25.264105"
        y="14.257408"
-       id="use290" />
+       id="use280" />
   </g>
   <g
      fill="#000000"
      fill-opacity="1"
-     id="g308">
+     id="g298">
     <use
        xlink:href="#glyph-0-31"
        x="9.2509012"
-       y="100.55225"
-       id="use294" />
+       y="96.800301"
+       id="use284" />
     <use
        xlink:href="#glyph-0-24"
        x="15.256951"
-       y="100.55225"
-       id="use296" />
+       y="96.800301"
+       id="use286" />
     <use
        xlink:href="#glyph-0-12"
        x="19.253656"
-       y="100.55225"
-       id="use298" />
+       y="96.800301"
+       id="use288" />
     <use
        xlink:href="#glyph-0-12"
        x="21.755445"
-       y="100.55225"
-       id="use300" />
+       y="96.800301"
+       id="use290" />
     <use
        xlink:href="#glyph-0-7"
        x="24.257235"
-       y="100.55225"
-       id="use302" />
+       y="96.800301"
+       id="use292" />
     <use
        xlink:href="#glyph-0-8"
        x="28.253939"
-       y="100.55225"
-       id="use304" />
+       y="96.800301"
+       id="use294" />
     <use
        xlink:href="#glyph-0-32"
        x="31.252567"
-       y="100.55225"
-       id="use306" />
+       y="96.800301"
+       id="use296" />
   </g>
   <path
      fill-rule="nonzero"
      fill="rgb(0%, 0%, 0%)"
      fill-opacity="1"
      d="M 172.964844 206.355469 L 175.214844 206.355469 L 175.214844 207.109375 L 172.964844 207.109375 Z M 177.46875 206.355469 L 179.71875 206.355469 L 179.71875 207.109375 L 177.46875 207.109375 Z M 181.96875 206.355469 L 184.222656 206.355469 L 184.222656 207.109375 L 181.96875 207.109375 Z M 186.472656 206.355469 L 188.722656 206.355469 L 188.722656 207.109375 L 186.472656 207.109375 Z M 190.972656 206.355469 L 193.226563 206.355469 L 193.226563 207.109375 L 190.972656 207.109375 Z M 195.476563 206.355469 L 197.726563 206.355469 L 197.726563 207.109375 L 195.476563 207.109375 Z M 199.980469 206.355469 L 202.230469 206.355469 L 202.230469 207.109375 L 199.980469 207.109375 Z M 204.480469 206.355469 L 206.734375 206.355469 L 206.734375 207.109375 L 204.480469 207.109375 Z M 208.984375 206.355469 L 211.234375 206.355469 L 211.234375 207.109375 L 208.984375 207.109375 Z M 213.484375 206.355469 L 215.738281 206.355469 L 215.738281 207.109375 L 213.484375 207.109375 Z M 217.988281 206.355469 L 220.238281 206.355469 L 220.238281 207.109375 L 217.988281 207.109375 Z M 222.492188 206.355469 L 224.742188 206.355469 L 224.742188 207.109375 L 222.492188 207.109375 Z M 226.992188 206.355469 L 229.242188 206.355469 L 229.242188 207.109375 L 226.992188 207.109375 Z M 231.496094 206.355469 L 233.746094 206.355469 L 233.746094 207.109375 L 231.496094 207.109375 Z M 231.496094 206.355469 "
-     id="path310" />
+     id="path300" />
   <path
      fill-rule="nonzero"
      fill="rgb(0%, 0%, 0%)"
      fill-opacity="1"
      d="M 239.660156 206.734375 L 234.40625 209.359375 L 235.71875 206.734375 L 234.40625 204.105469 Z M 239.660156 206.734375 "
-     id="path312" />
+     id="path302" />
   <g
      clip-path="url(#clip-0)"
-     id="g316">
+     id="g306">
     <path
        fill="none"
        stroke-width="1"
@@ -852,7 +813,7 @@
        stroke-miterlimit="10"
        d="m 318.88083,275.0026 -7.00157,3.49818 1.74909,-3.49818 -1.74909,-3.50339 z m 0,0"
        transform="matrix(0.75039,0,0,0.75039,0.375195,0.375195)"
-       id="path314" />
+       id="path304" />
   </g>
   <path
      fill-rule="nonzero"
@@ -866,76 +827,76 @@
      stroke-miterlimit="4"
      d="M 109.999843 229.999956 L 229.999956 229.999956 L 229.999956 290.000012 L 109.999843 290.000012 Z M 109.999843 229.999956 "
      transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
-     id="path318" />
+     id="path308" />
   <g
      fill="#000000"
      fill-opacity="1"
-     id="g346">
+     id="g336">
     <use
        xlink:href="#glyph-0-4"
        x="100.66949"
        y="198.10294"
-       id="use320" />
+       id="use310" />
     <use
        xlink:href="#glyph-0-5"
        x="105.67747"
        y="198.10294"
-       id="use322" />
+       id="use312" />
     <use
        xlink:href="#glyph-0-6"
        x="110.17981"
        y="198.10294"
-       id="use324" />
+       id="use314" />
     <use
        xlink:href="#glyph-0-7"
        x="116.6827"
        y="198.10294"
-       id="use326" />
+       id="use316" />
     <use
        xlink:href="#glyph-0-8"
        x="120.67941"
        y="198.10294"
-       id="use328" />
+       id="use318" />
     <use
        xlink:href="#glyph-0-33"
        x="123.67804"
        y="198.10294"
-       id="use330" />
+       id="use320" />
     <use
        xlink:href="#glyph-0-9"
        x="125.92921"
        y="198.10294"
-       id="use332" />
+       id="use322" />
     <use
        xlink:href="#glyph-0-5"
        x="132.93333"
        y="198.10294"
-       id="use334" />
+       id="use324" />
     <use
        xlink:href="#glyph-0-34"
        x="137.43567"
        y="198.10294"
-       id="use336" />
+       id="use326" />
     <use
        xlink:href="#glyph-0-13"
        x="141.93802"
        y="198.10294"
-       id="use338" />
+       id="use328" />
     <use
        xlink:href="#glyph-0-12"
        x="144.4398"
        y="198.10294"
-       id="use340" />
+       id="use330" />
     <use
        xlink:href="#glyph-0-5"
        x="146.94159"
        y="198.10294"
-       id="use342" />
+       id="use332" />
     <use
        xlink:href="#glyph-0-8"
        x="151.44392"
        y="198.10294"
-       id="use344" />
+       id="use334" />
   </g>
   <path
      fill="none"
@@ -945,9 +906,9 @@
      stroke="rgb(0%, 0%, 0%)"
      stroke-opacity="1"
      stroke-miterlimit="10"
-     d="M 280.000003 175.002507 L 280.000003 259.999984 L 236.371643 259.999984 "
+     d="M 280.000003 185.002517 L 280.000003 259.999984 L 236.371643 259.999984 "
      transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
-     id="path348" />
+     id="path338" />
   <path
      fill-rule="nonzero"
      fill="rgb(0%, 0%, 0%)"
@@ -960,7 +921,7 @@
      stroke-miterlimit="10"
      d="M 231.119166 259.999984 L 238.120734 256.501803 L 236.371643 259.999984 L 238.120734 263.498166 Z M 231.119166 259.999984 "
      transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
-     id="path350" />
+     id="path340" />
   <path
      fill-rule="nonzero"
      fill="rgb(100%, 100%, 100%)"
@@ -971,9 +932,9 @@
      stroke="rgb(0%, 0%, 0%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
-     d="M 265.002592 165.002498 L 294.997414 165.002498 L 294.997414 175.002507 L 265.002592 175.002507 Z M 265.002592 165.002498 "
+     d="M 265.002592 175.002507 L 294.997414 175.002507 L 294.997414 185.002517 L 265.002592 185.002517 Z M 265.002592 175.002507 "
      transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
-     id="path352" />
+     id="path342" />
   <path
      fill="none"
      stroke-width="1"
@@ -984,7 +945,7 @@
      stroke-miterlimit="10"
      d="M 75.002413 145.002479 L 75.002413 259.999984 L 103.628156 259.999984 "
      transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
-     id="path354" />
+     id="path344" />
   <path
      fill-rule="nonzero"
      fill="rgb(0%, 0%, 0%)"
@@ -996,6 +957,65 @@
      stroke-opacity="1"
      stroke-miterlimit="10"
      d="M 108.880634 259.999984 L 101.879065 263.498166 L 103.628156 259.999984 L 101.879065 256.501803 Z M 108.880634 259.999984 "
+     transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
+     id="path346" />
+  <path
+     fill="none"
+     stroke-width="1"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     stroke="rgb(0%, 0%, 0%)"
+     stroke-opacity="1"
+     stroke-miterlimit="10"
+     d="M 89.999825 139.999872 L 115.002451 139.999872 L 115.002451 179.999909 L 133.628184 179.999909 "
+     transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
+     id="path348" />
+  <path
+     fill-rule="nonzero"
+     fill="rgb(0%, 0%, 0%)"
+     fill-opacity="1"
+     stroke-width="1"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     stroke="rgb(0%, 0%, 0%)"
+     stroke-opacity="1"
+     stroke-miterlimit="10"
+     d="M 138.880662 179.999909 L 131.879094 183.49809 L 133.628184 179.999909 L 131.879094 176.501728 Z M 138.880662 179.999909 "
+     transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
+     id="path350" />
+  <path
+     fill="none"
+     stroke-width="1"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     stroke="rgb(0%, 0%, 0%)"
+     stroke-opacity="1"
+     stroke-miterlimit="10"
+     d="M 89.999825 139.999872 L 115.002451 139.999872 L 115.002451 109.999843 L 133.628184 109.999843 "
+     transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
+     id="path352" />
+  <path
+     fill-rule="nonzero"
+     fill="rgb(0%, 0%, 0%)"
+     fill-opacity="1"
+     stroke-width="1"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     stroke="rgb(0%, 0%, 0%)"
+     stroke-opacity="1"
+     stroke-miterlimit="10"
+     d="M 138.880662 109.999843 L 131.879094 113.498025 L 133.628184 109.999843 L 131.879094 106.501662 Z M 138.880662 109.999843 "
+     transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
+     id="path354" />
+  <path
+     fill="none"
+     stroke-width="1"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     stroke="rgb(0%, 0%, 0%)"
+     stroke-opacity="1"
+     stroke-miterlimit="10"
+     d="M 59.999796 139.999872 L 9.99975 139.999872 "
      transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
      id="path356" />
   <path
@@ -1060,12 +1080,12 @@
      fill-opacity="1"
      id="g376">
     <use
-       xlink:href="#glyph-0-16"
+       xlink:href="#glyph-0-19"
        x="222.60786"
        y="78.04055"
        id="use372" />
     <use
-       xlink:href="#glyph-0-17"
+       xlink:href="#glyph-0-18"
        x="227.1102"
        y="78.04055"
        id="use374" />
@@ -1075,19 +1095,19 @@
      fill-opacity="1"
      id="g384">
     <use
-       xlink:href="#glyph-0-18"
+       xlink:href="#glyph-0-16"
        x="220.35669"
-       y="115.56005"
+       y="123.06395"
        id="use378" />
     <use
-       xlink:href="#glyph-0-19"
+       xlink:href="#glyph-0-17"
        x="224.85902"
-       y="115.56005"
+       y="123.06395"
        id="use380" />
     <use
-       xlink:href="#glyph-0-17"
+       xlink:href="#glyph-0-18"
        x="229.36137"
-       y="115.56005"
+       y="123.06395"
        id="use382" />
   </g>
   <g
@@ -1095,19 +1115,62 @@
      fill-opacity="1"
      id="g392">
     <use
-       xlink:href="#glyph-0-19"
-       x="89.788841"
-       y="108.05615"
+       xlink:href="#glyph-0-17"
+       x="14.749852"
+       y="119.312"
        id="use386" />
     <use
        xlink:href="#glyph-0-36"
-       x="94.291183"
-       y="108.05615"
+       x="19.252192"
+       y="119.312"
        id="use388" />
     <use
-       xlink:href="#glyph-0-17"
-       x="98.793526"
-       y="108.05615"
+       xlink:href="#glyph-0-18"
+       x="23.754532"
+       y="119.312"
        id="use390" />
+  </g>
+  <path
+     fill-rule="nonzero"
+     fill="rgb(100%, 100%, 100%)"
+     fill-opacity="1"
+     stroke-width="1"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     stroke="rgb(0%, 0%, 0%)"
+     stroke-opacity="1"
+     stroke-miterlimit="4"
+     d="M 149.000401 149.999881 L 220.999427 149.999881 C 221.592869 149.999881 222.175899 150.057143 222.753723 150.171667 C 223.336754 150.28619 223.898961 150.457976 224.445552 150.687024 C 224.992143 150.910866 225.5075 151.186764 226.002035 151.514718 C 226.491363 151.842673 226.944253 152.217478 227.365909 152.633928 C 227.782359 153.055584 228.157164 153.508474 228.485119 153.997802 C 228.813073 154.492337 229.088971 155.007694 229.312813 155.554285 C 229.541861 156.100876 229.713647 156.663083 229.82817 157.246114 C 229.942694 157.823938 229.999956 158.406969 229.999956 159.00041 L 229.999956 200.999408 C 229.999956 201.59285 229.942694 202.17588 229.82817 202.753705 C 229.713647 203.336735 229.541861 203.898942 229.312813 204.445533 C 229.088971 204.992124 228.813073 205.507481 228.485119 206.002016 C 228.157164 206.491345 227.782359 206.944234 227.365909 207.36589 C 226.944253 207.78234 226.491363 208.157145 226.002035 208.4851 C 225.5075 208.813054 224.992143 209.088953 224.445552 209.312795 C 223.898961 209.541842 223.336754 209.713628 222.753723 209.828152 C 222.175899 209.942675 221.592869 209.999937 220.999427 209.999937 L 149.000401 209.999937 C 148.406959 209.999937 147.823929 209.942675 147.246104 209.828152 C 146.663074 209.713628 146.100866 209.541842 145.554276 209.312795 C 145.007685 209.088953 144.492328 208.813054 143.997793 208.4851 C 143.508464 208.157145 143.055575 207.78234 142.633919 207.36589 C 142.217469 206.944234 141.842664 206.491345 141.514709 206.002016 C 141.186755 205.507481 140.910856 204.992124 140.687014 204.445533 C 140.457967 203.898942 140.286181 203.336735 140.171657 202.753705 C 140.057133 202.17588 139.999872 201.59285 139.999872 200.999408 L 139.999872 159.00041 C 139.999872 158.406969 140.057133 157.823938 140.171657 157.246114 C 140.286181 156.663083 140.457967 156.100876 140.687014 155.554285 C 140.910856 155.007694 141.186755 154.492337 141.514709 153.997802 C 141.842664 153.508474 142.217469 153.055584 142.633919 152.633928 C 143.055575 152.217478 143.508464 151.842673 143.997793 151.514718 C 144.492328 151.186764 145.007685 150.910866 145.554276 150.687024 C 146.100866 150.457976 146.663074 150.28619 147.246104 150.171667 C 147.823929 150.057143 148.406959 149.999881 149.000401 149.999881 Z M 149.000401 149.999881 "
+     transform="matrix(0.75039, 0, 0, 0.75039, 0.375195, 0.375195)"
+     id="path394" />
+  <g
+     fill="#000000"
+     fill-opacity="1"
+     id="g406">
+    <use
+       xlink:href="#glyph-0-1"
+       x="125.05717"
+       y="138.07175"
+       id="use396" />
+    <use
+       xlink:href="#glyph-0-2"
+       x="131.56006"
+       y="138.07175"
+       id="use398" />
+    <use
+       xlink:href="#glyph-0-3"
+       x="137.56612"
+       y="138.07175"
+       id="use400" />
+    <use
+       xlink:href="#glyph-0-1"
+       x="140.0679"
+       y="138.07175"
+       id="use402" />
+    <use
+       xlink:href="#glyph-0-2"
+       x="146.57079"
+       y="138.07175"
+       id="use404" />
   </g>
 </svg>
