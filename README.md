@@ -1,9 +1,3 @@
-<style>
-r { color: Red }
-o { color: Orange }
-g { color: Green }
-</style>
-
 # Development Module for Safety Radar Sensor in Single-Track Vehicles
 
 ### Features on PCB
@@ -21,12 +15,12 @@ g { color: Green }
 * Pogo pins – board to board connector
 * ESP32 GPIO <-> radar pins (FFC conn)
 * 100BASE-T1 connector
-* ANT+ module 
+* ANT+ module
 
 ### Thesis (read-only)
 https://www.overleaf.com/read/hrqsdpdkjjvk
 
 ### Block diagram
 
-![](docu/BlockDiagram_v3.svg)
+![](graphics/BlockDiagram_v3.svg)
 
