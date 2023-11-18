@@ -457,6 +457,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -475,6 +483,18 @@
     [
       "8ae18a6c-482d-4e1c-94d1-12de0ef4fa68",
       "PHY"
+    ],
+    [
+      "db1e19a0-821c-4756-9ad0-6b0269412516",
+      "USB interface"
+    ],
+    [
+      "8e86b850-15ce-40c4-bda7-5d0afa1e377d",
+      "Power management"
+    ],
+    [
+      "d5bea8d6-1b3a-4b92-a89f-c43c2ab6f30a",
+      "IMU&ANT"
     ]
   ],
   "text_variables": {}
