@@ -33,8 +33,12 @@ https://www.overleaf.com/read/hrqsdpdkjjvk
 * Power multiplexor - TPS2121   
     https://www.ti.com/lit/ds/symlink/tps2121.pdf?ts=1699904287563&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS2121
 
-* Power monitor - MICROCHIP Dual channel PAC1952-1 VQFN16 – **Farnell**
+
+* <del> Power monitor - MICROCHIP Dual channel PAC1952-1 VQFN16 – **Farnell**
     https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/PAC195X-Family-Data-Sheet-DS20006539.pdf
+
+* Power monitor - TI INA3221 Triple-Channel, Shunt and Bus Voltage Monitor VQFN16
+    https://www.ti.com/lit/ds/symlink/ina3221.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1700495007519&ref_url=https%253A%252F%252Fwww.mouser.fr%252F
 
 * DC/DC 5V -> 3.3V - TI TPS62140  
     https://datasheet.lcsc.com/lcsc/2304140030_Texas-Instruments-TPS62140RGTR_C138725.pdf

@@ -483,6 +483,10 @@
     (uuid fb565192-bcf9-4ad0-8cf7-98daee89b534)
   )
 
+  (text "TODO: Ferrite bead za 3V3 DC/DC" (at 21.59 46.99 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6ff86db5-18f6-4d87-bb82-c65aa89b26e5)
+  )
   (text "TODO: LEDs on every power line" (at 73.66 20.32 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b0d6ec5c-d485-4b84-9288-1d5bfa693274)

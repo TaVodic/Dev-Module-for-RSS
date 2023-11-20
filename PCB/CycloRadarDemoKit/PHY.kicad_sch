@@ -1122,7 +1122,7 @@
     (stroke (width 0) (type default))
     (uuid f67748e1-20e1-4ce5-a21a-96d8dc4ce743)
   )
-  (wire (pts (xy 83.82 54.61) (xy 91.44 54.61))
+  (wire (pts (xy 86.36 54.61) (xy 91.44 54.61))
     (stroke (width 0) (type default))
     (uuid fea5c2c7-2156-46d8-8abe-21471c62d8f2)
   )
@@ -1202,7 +1202,7 @@
     (uuid f13f38b6-b0a8-473b-a955-285e837a610f)
   )
 
-  (hierarchical_label "TX_EN" (shape input) (at 83.82 54.61 180) (fields_autoplaced)
+  (hierarchical_label "TX_EN" (shape input) (at 86.36 54.61 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 1c79f852-c24a-488d-9809-5dca44cd2840)
   )
