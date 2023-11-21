@@ -1443,8 +1443,8 @@
     (uuid ffd6285f-b787-48fe-9a20-6ec7c2fb1110)
   )
 
-  (text "Notes:\nMax current through VDD: 500mA\n\nVBUS - 5V net from USB to power multiplexer\n+3V3_USB - local net only for CP2102"
-    (at 88.9 33.02 0)
+  (text "Notes:\n+3V3_USB - local net only for CP2102\nVBUS - 5V net from USB to power multiplexer"
+    (at 105.41 38.1 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4989a8e7-c243-4833-9ccf-66edb2a5f829)
   )
