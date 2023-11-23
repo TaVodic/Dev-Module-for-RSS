@@ -173,6 +173,68 @@
         )
       )
     )
+    (symbol "Device:FerriteBead_Small" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "FB" (at 1.905 1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "FerriteBead_Small" (at 1.905 -1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at -1.778 0 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "L ferrite bead inductor filter" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Ferrite bead, small symbol" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Inductor_* L_* *Ferrite*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "FerriteBead_Small_0_1"
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy 0 -0.7874)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0.889)
+            (xy 0 1.2954)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.8288 0.2794)
+            (xy -1.1176 1.4986)
+            (xy 1.8288 -0.2032)
+            (xy 1.1176 -1.4224)
+            (xy -1.8288 0.2794)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "FerriteBead_Small_1_1"
+        (pin passive line (at 0 2.54 270) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 90) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
@@ -786,6 +848,10 @@
     (stroke (width 0) (type default))
     (uuid 297b9021-506f-40ee-9fef-3bf7b6d592e7)
   )
+  (wire (pts (xy 146.05 27.94) (xy 146.05 30.48))
+    (stroke (width 0) (type default))
+    (uuid 2aafff1e-1608-4537-9b17-638cf93bba3e)
+  )
   (wire (pts (xy 167.64 68.58) (xy 194.31 68.58))
     (stroke (width 0) (type default))
     (uuid 301ff2e3-234a-4047-97df-48fb24164c3c)
@@ -845,10 +911,6 @@
   (wire (pts (xy 63.5 120.65) (xy 66.04 120.65))
     (stroke (width 0) (type default))
     (uuid 5910a028-14dc-416b-892d-0d0631e4a560)
-  )
-  (wire (pts (xy 132.08 29.21) (xy 132.08 30.48))
-    (stroke (width 0) (type default))
-    (uuid 597d234d-ab45-40d2-86c4-4bad047b4340)
   )
   (wire (pts (xy 52.07 154.94) (xy 64.77 154.94))
     (stroke (width 0) (type default))
@@ -958,6 +1020,10 @@
     (stroke (width 0) (type default))
     (uuid 9a70ec4a-3067-4b75-873b-5bf401415da2)
   )
+  (wire (pts (xy 146.05 30.48) (xy 139.7 30.48))
+    (stroke (width 0) (type default))
+    (uuid 9c3c3cfe-e184-4181-bd64-a448a6249f23)
+  )
   (wire (pts (xy 74.93 53.34) (xy 74.93 54.61))
     (stroke (width 0) (type default))
     (uuid a4451c17-18dc-470f-9fd0-f131d7e6bc9f)
@@ -977,6 +1043,10 @@
   (wire (pts (xy 167.64 73.66) (xy 194.31 73.66))
     (stroke (width 0) (type default))
     (uuid aa8ba876-bbf2-4253-af62-3a30041da143)
+  )
+  (wire (pts (xy 134.62 30.48) (xy 132.08 30.48))
+    (stroke (width 0) (type default))
+    (uuid ad938031-3b12-4f83-ad01-b4023620cd17)
   )
   (wire (pts (xy 204.47 149.86) (xy 213.36 149.86))
     (stroke (width 0) (type default))
@@ -1211,7 +1281,7 @@
   (symbol (lib_id "Device:R") (at 186.69 92.71 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes)
     (uuid 0e49dd5c-f667-436b-a137-de6f4c76e1d1)
-    (property "Reference" "R102" (at 184.15 91.44 0)
+    (property "Reference" "R103" (at 184.15 91.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K(5%)" (at 184.15 93.98 0)
@@ -1228,7 +1298,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9"
-          (reference "R102") (unit 1)
+          (reference "R103") (unit 1)
         )
       )
     )
@@ -1263,7 +1333,7 @@
   (symbol (lib_id "Device:R") (at 24.13 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 220dbf5d-be4d-4a46-8a82-c7989eadc409)
-    (property "Reference" "R104" (at 26.67 175.26 0)
+    (property "Reference" "R107" (at 26.67 175.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K(1%)" (at 26.67 177.8 0)
@@ -1280,7 +1350,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9"
-          (reference "R104") (unit 1)
+          (reference "R107") (unit 1)
         )
       )
     )
@@ -1323,7 +1393,7 @@
   (symbol (lib_id "Device:C_Small") (at 107.95 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c58e85d-8157-4c8d-8e1e-4c258b014b1a)
-    (property "Reference" "C101" (at 110.49 33.0263 0)
+    (property "Reference" "C102" (at 110.49 33.0263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF/16V(10%)" (at 110.49 35.5663 0)
@@ -1340,7 +1410,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9"
-          (reference "C101") (unit 1)
+          (reference "C102") (unit 1)
         )
       )
     )
@@ -1349,7 +1419,7 @@
   (symbol (lib_id "power:GND") (at 24.13 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3cd1d4b3-337f-4a26-bc9d-9e60fc2abc16)
-    (property "Reference" "#PWR0108" (at 24.13 186.69 0)
+    (property "Reference" "#PWR0112" (at 24.13 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 24.13 185.42 0)
@@ -1365,7 +1435,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9"
-          (reference "#PWR0108") (unit 1)
+          (reference "#PWR0112") (unit 1)
         )
       )
     )
@@ -1455,7 +1525,7 @@
   (symbol (lib_id "power:GND") (at 184.15 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 515a5e1e-903c-407e-8209-5a0908468f80)
-    (property "Reference" "#PWR0110" (at 184.15 157.48 0)
+    (property "Reference" "#PWR0109" (at 184.15 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 184.15 156.21 0)
@@ -1471,7 +1541,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9"
-          (reference "#PWR0110") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -1505,7 +1575,7 @@
   (symbol (lib_id "power:+3V3") (at 186.69 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5edf9226-14a4-40f0-8eaa-a08ba10f8381)
-    (property "Reference" "#PWR0101" (at 186.69 40.64 0)
+    (property "Reference" "#PWR0102" (at 186.69 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 186.69 31.75 0)
@@ -1521,32 +1591,32 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 132.08 29.21 0) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 146.05 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 655f63e6-668f-465c-97ea-cce636ac1e32)
-    (property "Reference" "#PWR0103" (at 132.08 33.02 0)
+    (property "Reference" "#PWR0101" (at 146.05 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (at 132.08 24.13 0)
+    (property "Value" "+3V3" (at 146.05 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 132.08 29.21 0)
+    (property "Footprint" "" (at 146.05 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 132.08 29.21 0)
+    (property "Datasheet" "" (at 146.05 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 700cfbb9-4e9b-4e06-a614-d8b3d3350e26))
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -1555,7 +1625,7 @@
   (symbol (lib_id "power:GND") (at 186.69 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68f1bf2a-0fa6-4afc-aa31-3b7f82c975bd)
-    (property "Reference" "#PWR0102" (at 186.69 104.14 0)
+    (property "Reference" "#PWR0107" (at 186.69 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 186.69 102.87 0)
@@ -1571,7 +1641,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
       )
     )
@@ -1606,7 +1676,7 @@
   (symbol (lib_id "Device:R") (at 69.85 118.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 76802f80-3236-4130-99f1-fa250e4ce8d8)
-    (property "Reference" "R106" (at 69.85 113.03 90)
+    (property "Reference" "R104" (at 69.85 113.03 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 69.85 115.57 90)
@@ -1623,7 +1693,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9"
-          (reference "R106") (unit 1)
+          (reference "R104") (unit 1)
         )
       )
     )
@@ -1659,7 +1729,7 @@
   (symbol (lib_id "power:+3V3") (at 62.23 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a00fd81-b766-4e59-8ebb-44c3c7beea4e)
-    (property "Reference" "#PWR0112" (at 62.23 50.8 0)
+    (property "Reference" "#PWR0104" (at 62.23 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 62.23 41.91 0)
@@ -1675,7 +1745,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -1684,7 +1754,7 @@
   (symbol (lib_id "Device:R") (at 217.17 149.86 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a406fb8b-2f12-4f75-b517-cb54aeaaa5f8)
-    (property "Reference" "R107" (at 217.17 143.51 90)
+    (property "Reference" "R106" (at 217.17 143.51 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 217.17 146.05 90)
@@ -1701,7 +1771,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9"
-          (reference "R107") (unit 1)
+          (reference "R106") (unit 1)
         )
       )
     )
@@ -1762,7 +1832,7 @@
   (symbol (lib_id "power:+3V3") (at 184.15 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aee3cdd0-ded5-4bc5-af7b-9fc934870987)
-    (property "Reference" "#PWR0111" (at 184.15 142.24 0)
+    (property "Reference" "#PWR0108" (at 184.15 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 184.15 133.35 0)
@@ -1778,7 +1848,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9"
-          (reference "#PWR0111") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -1787,7 +1857,7 @@
   (symbol (lib_id "power:GND") (at 45.72 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb1b9855-a436-4705-ac54-3b6e90ddbe58)
-    (property "Reference" "#PWR0107" (at 45.72 163.83 0)
+    (property "Reference" "#PWR0111" (at 45.72 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 45.72 162.56 0)
@@ -1803,7 +1873,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR0111") (unit 1)
         )
       )
     )
@@ -1812,7 +1882,7 @@
   (symbol (lib_id "Device:C_Small") (at 102.87 34.29 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bbeb29d9-3677-4246-b850-306645bcb992)
-    (property "Reference" "C102" (at 100.33 33.0263 0)
+    (property "Reference" "C101" (at 100.33 33.0263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100uF/6.3V(20%)" (at 100.33 35.5663 0)
@@ -1829,7 +1899,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9"
-          (reference "C102") (unit 1)
+          (reference "C101") (unit 1)
         )
       )
     )
@@ -1889,7 +1959,7 @@
   (symbol (lib_id "power:GND") (at 102.87 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2af1ae5-a751-4c88-9667-a9bfdf652d8a)
-    (property "Reference" "#PWR0104" (at 102.87 45.72 0)
+    (property "Reference" "#PWR0103" (at 102.87 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.87 44.45 0)
@@ -1905,7 +1975,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -1940,7 +2010,7 @@
   (symbol (lib_id "power:GND") (at 24.13 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb1ed26b-a718-4dd5-9cb2-958578e682af)
-    (property "Reference" "#PWR0109" (at 24.13 163.83 0)
+    (property "Reference" "#PWR0110" (at 24.13 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 24.13 162.56 0)
@@ -1956,7 +2026,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9"
-          (reference "#PWR0109") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -1965,7 +2035,7 @@
   (symbol (lib_id "Device:R") (at 67.31 48.26 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb8a9730-b842-44cd-9587-74c025d9c07c)
-    (property "Reference" "R103" (at 67.31 54.61 90)
+    (property "Reference" "R102" (at 67.31 54.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K(5%)" (at 67.31 52.07 90)
@@ -1982,7 +2052,39 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9"
-          (reference "R103") (unit 1)
+          (reference "R102") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:FerriteBead_Small") (at 137.16 30.48 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f69753c3-b0e6-4909-ba55-8577ec94539d)
+    (property "Reference" "FB301" (at 137.1219 24.13 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "GZ2012D101TF" (at 137.1219 26.67 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 137.16 32.258 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 137.16 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cd1f8d11-cb8d-4a84-81e8-785e5927b3df))
+    (pin "2" (uuid 9b4423c2-4cef-4593-8b4f-dc23100931cf))
+    (instances
+      (project "CycloRadarDemoKit"
+        (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/db1e19a0-821c-4756-9ad0-6b0269412516"
+          (reference "FB301") (unit 1)
+        )
+        (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
+          (reference "FB401") (unit 1)
+        )
+        (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9"
+          (reference "FB101") (unit 1)
         )
       )
     )
@@ -2059,6 +2161,10 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 6bac461f-f31e-41b5-93d6-2dcd2e181655)
     )
+    (pin "PMIC_PV" input (at 231.14 114.3 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 984364d3-698e-4a4e-8597-431ef2d56362)
+    )
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9" (page "4"))
@@ -2111,6 +2217,10 @@
     (pin "RXD" input (at 63.5 118.11 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 1aad2934-5ad9-433a-aad1-fcc6ae91d34e)
+    )
+    (pin "LED_DIN" input (at 63.5 128.27 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 1b6bc5da-f0cd-4f3f-9364-87622b9f0fcd)
     )
     (instances
       (project "CycloRadarDemoKit"

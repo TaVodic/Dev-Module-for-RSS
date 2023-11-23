@@ -26,7 +26,7 @@ https://www.overleaf.com/read/hrqsdpdkjjvk
 
 ### Power management
 
-![](graphics/PowerManagement.svg)
+![](graphics/BlockDiagram-PowerManagement.svg)
 
 #### Components
 
@@ -40,11 +40,11 @@ https://www.overleaf.com/read/hrqsdpdkjjvk
 * Power monitor - TI INA3221 Triple-Channel, Shunt and Bus Voltage Monitor VQFN16
     https://www.ti.com/lit/ds/symlink/ina3221.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1700495007519&ref_url=https%253A%252F%252Fwww.mouser.fr%252F
 
-* DC/DC 5V -> 3.3V - TI TPS62140  
-    https://datasheet.lcsc.com/lcsc/2304140030_Texas-Instruments-TPS62140RGTR_C138725.pdf
-
 * DC/DC 20V -> 12V RICHTEK RT8259   
     https://www.farnell.com/datasheets/1720510.pdf
 
 * DC/DC 20V -> 5V DIODES AP63205WU  
+    https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+
+* DC/DC 5V -> 3.3V - DIODES AP63203WU    
     https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
