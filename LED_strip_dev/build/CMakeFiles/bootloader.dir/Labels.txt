@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+S:/ALPS/GITLAB/tavoda-bachelor-thesis/InitialDevelopement/hello_world/build/CMakeFiles/bootloader
+S:/ALPS/GITLAB/tavoda-bachelor-thesis/InitialDevelopement/hello_world/build/CMakeFiles/bootloader.rule
+S:/ALPS/GITLAB/tavoda-bachelor-thesis/InitialDevelopement/hello_world/build/CMakeFiles/bootloader-complete.rule
+S:/ALPS/GITLAB/tavoda-bachelor-thesis/InitialDevelopement/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+S:/ALPS/GITLAB/tavoda-bachelor-thesis/InitialDevelopement/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+S:/ALPS/GITLAB/tavoda-bachelor-thesis/InitialDevelopement/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+S:/ALPS/GITLAB/tavoda-bachelor-thesis/InitialDevelopement/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+S:/ALPS/GITLAB/tavoda-bachelor-thesis/InitialDevelopement/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+S:/ALPS/GITLAB/tavoda-bachelor-thesis/InitialDevelopement/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+S:/ALPS/GITLAB/tavoda-bachelor-thesis/InitialDevelopement/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
