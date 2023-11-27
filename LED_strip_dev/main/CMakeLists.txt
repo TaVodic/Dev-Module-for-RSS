@@ -1,2 +1,2 @@
-idf_component_register(SRCS "led_strip_example_main.c" "led_strip_encoder.c"
+idf_component_register(SRCS "main.c" "ws2812_control.c"
                        INCLUDE_DIRS ".")
