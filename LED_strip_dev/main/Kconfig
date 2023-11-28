@@ -32,7 +32,7 @@ config WS2812_LED_RMT_TX_CHANNEL
 
 config WS2812_LED_RMT_TX_GPIO
 	int "GPIO number where the WS2812 strip is connected."
-    default 18
+    default 4
     help
 	Specify which GPIO should be used to send the signal. Only Output pins can be used: 0-5 or 12-33 should be ok.
 

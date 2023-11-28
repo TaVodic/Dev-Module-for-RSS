@@ -36,7 +36,7 @@ esp_err_t ws2812_control_init(void)
   rmt_config_t config = {
     .rmt_mode = RMT_MODE_TX,
     .channel = LED_RMT_TX_CHANNEL,
-    .gpio_num = LED_RMT_TX_GPIO,
+    .gpio_num = LED_STRIP_PIN,
     .mem_block_num = 3,
     .tx_config.loop_en = false,
     .tx_config.carrier_en = false,
