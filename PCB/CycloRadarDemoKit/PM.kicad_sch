@@ -399,6 +399,79 @@
         )
       )
     )
+    (symbol "Diode:SD05_SOD323" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "SD05_SOD323" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "Diode_SMD:D_SOD-323" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "transient voltage suppressor thyrector transil" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "D?SOD?323*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "SD05_SOD323_0_1"
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 -1.27)
+            (xy 0 0)
+            (xy -2.54 1.27)
+            (xy -2.54 -1.27)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.508 1.27)
+            (xy 0 1.27)
+            (xy 0 -1.27)
+            (xy -0.508 -1.27)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 1.27)
+            (xy 2.54 -1.27)
+            (xy 0 0)
+            (xy 2.54 1.27)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "SD05_SOD323_1_1"
+        (pin passive line (at -3.81 0 0) (length 2.54)
+          (name "A1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 2.54)
+          (name "A2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Power_Management:INA3221" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -10.16 17.78 0)
         (effects (font (size 1.27 1.27)) (justify left top))
@@ -1299,6 +1372,9 @@
   (junction (at 119.38 82.55) (diameter 0) (color 0 0 0 0)
     (uuid 635231ff-015e-4253-a174-66063bf936bd)
   )
+  (junction (at 48.26 80.01) (diameter 0) (color 0 0 0 0)
+    (uuid 69ac8bb2-ee02-4851-9034-eec408d944c3)
+  )
   (junction (at 209.55 92.71) (diameter 0) (color 0 0 0 0)
     (uuid 6c22d89a-18cd-45c9-89bd-3d9e245f79d9)
   )
@@ -1542,6 +1618,10 @@
     (stroke (width 0) (type default))
     (uuid 2ebc6187-918b-4b85-8118-6922fb77e76e)
   )
+  (wire (pts (xy 48.26 80.01) (xy 52.07 80.01))
+    (stroke (width 0) (type default))
+    (uuid 30f7de45-cb17-494d-b7c9-970b4772a235)
+  )
   (wire (pts (xy 45.72 158.75) (xy 48.26 158.75))
     (stroke (width 0) (type default))
     (uuid 31aa0f93-99b3-430d-913d-112d5541947e)
@@ -1590,6 +1670,10 @@
     (stroke (width 0) (type default))
     (uuid 4656d698-35d6-4c15-819d-1bf57f0e6792)
   )
+  (wire (pts (xy 48.26 100.33) (xy 48.26 101.6))
+    (stroke (width 0) (type default))
+    (uuid 46c877b9-494c-4d09-9e36-f72080524a5f)
+  )
   (wire (pts (xy 71.12 161.29) (xy 77.47 161.29))
     (stroke (width 0) (type default))
     (uuid 47b35ecd-5858-4656-a210-8f29c13d711b)
@@ -1617,6 +1701,10 @@
   (wire (pts (xy 57.15 86.36) (xy 57.15 87.63))
     (stroke (width 0) (type default))
     (uuid 55dfa644-1fef-4cb3-86e7-d0c1f1e645e1)
+  )
+  (wire (pts (xy 48.26 80.01) (xy 48.26 92.71))
+    (stroke (width 0) (type default))
+    (uuid 5612c828-bf2a-4bf9-bbe1-182dfd2d2c72)
   )
   (wire (pts (xy 114.3 49.53) (xy 114.3 57.15))
     (stroke (width 0) (type default))
@@ -1822,7 +1910,7 @@
     (stroke (width 0) (type default))
     (uuid a86b4ce4-efa7-420b-b10e-474461f20523)
   )
-  (wire (pts (xy 40.64 80.01) (xy 52.07 80.01))
+  (wire (pts (xy 40.64 80.01) (xy 48.26 80.01))
     (stroke (width 0) (type default))
     (uuid a9189de1-7ec3-4dbe-b30e-4e5fa21204df)
   )
@@ -2027,16 +2115,20 @@
     (uuid ff103c05-3126-4417-9f77-11902052dec2)
   )
 
-  (text "Q: Do we really want to have priority on USB? I'm still for Batt."
-    (at 187.96 78.74 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+  (text "Q: Do we really want to have priority on USB? \nI'm still for Batt."
+    (at 198.12 82.55 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 1ee31a8c-3b39-496c-9380-795d380a7cc5)
+  )
+  (text "Overvoltage protection\nV_{RWM}=20V" (at 45.72 99.06 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 25f9c114-12cc-4d27-9d6a-b9c6225990eb)
   )
   (text "f = 1.4MHZ" (at 92.71 69.85 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2637db4c-394d-42b6-8d53-944e06eab5f8)
   )
-  (text "Maximum power values:\nCP2102N 3V3 10mA (USB)\nESP32 3V3 500mA\nMPU 3V3 4mA\nD52 ANT 3V3 20mA\nIP101 PHY 3V3 500mA\nPMICs 3.3V 0.5mA + 0.4mA + 0.03mA + 0.3mA = 1.3mA\nRESERVE: 200mA\n3V3 1.23A = 4W -> (94%)@4.24W\n\nLEDs 5V 720mA = 3.6W + 4.24W -> (87%)@8.8592W\nRadar 12V 500mA = 6W -> (90%)@6.6W \n\n15.46W -> 	20V @ 773mA\n			16.5V @ 937mA\n\n\n"
+  (text "Maximum electrical ratings:\nCP2102N 3V3 10mA (USB)\nESP32 3V3 500mA\nMPU 3V3 4mA\nD52 ANT 3V3 20mA\nIP101 PHY 3V3 500mA\nPMICs 3.3V 0.5mA + 0.4mA + 0.03mA + 0.3mA = 1.3mA\nRESERVE: 200mA\n3V3 1.23A = 4W -> (94%)@4.24W\n\nLEDs 5V 720mA = 3.6W + 4.24W -> (87%)@8.8592W\nRadar 12V 500mA = 6W -> (90%)@6.6W \n\n15.46W -> 	20V @ 773mA\n			16.5V @ 937mA\n\n\n"
     (at 223.52 52.07 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 29195fa7-7cf1-41da-8a52-de278b9ef6fa)
@@ -2057,27 +2149,19 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3d7aeafd-c5b6-44ff-8821-a07adf0c4c08)
   )
-  (text "TODO: Choose LEDs" (at 182.88 25.4 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 4d6b7723-20db-4b01-8662-29f6f71fb5db)
-  )
   (text "Battery pack\n3.7*5 = 18.5V => max 20V\n3.2*5 = 16V\n"
     (at 21.59 69.85 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5e80bf77-48cb-43d4-8edb-bc3b94b23e1f)
   )
   (text "IN1 has priority\nIf PR1 drop below 4.5V set by devider, \nIN2 is enabled"
-    (at 195.58 143.51 0)
+    (at 194.31 140.97 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 66019ad6-8e63-49c3-9a45-d8763fad5c2a)
   )
   (text "I_{max}=848mA" (at 31.75 156.21 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6750afa0-8dfd-461c-b745-61e55775511d)
-  )
-  (text "TODO: Inspect LCSC !!!" (at 182.88 27.94 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 67d6998e-4f97-4ffa-8655-370164df10df)
   )
   (text "I_{max}=1.568A" (at 139.7 115.57 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2086,15 +2170,6 @@
   (text "f = 1.1MHZ" (at 54.61 149.86 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 824f1809-a2b5-49dc-acd0-af76659844b9)
-  )
-  (text "TODO: ESD and overvoltage protection\nclamping device such as a TVS (Transient Voltage Suppression) "
-    (at 154.94 35.56 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 924363da-9211-41eb-b8f5-3c354e78d7d4)
-  )
-  (text "0603 small\n0805 Shunt\n2010 Shunt" (at 256.54 64.77 0)
-    (effects (font (size 2.5 2.5)) (justify left bottom))
-    (uuid a5783de6-9912-4f4d-9fce-14955aeda2dd)
   )
   (text "f = 1.1MHZ" (at 92.71 105.41 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2107,19 +2182,6 @@
   (text "I_{max}=0.5A" (at 134.62 82.55 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid db845e2c-8c9a-4ce7-a04c-c12eb07475e0)
-  )
-  (text "TODO: Change JLC to LCSC" (at 182.88 22.86 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e3987ff3-a13e-4288-a81d-63ac88e6d6f4)
-  )
-  (text "TODO: Power monitor sa rozbil !!!" (at 154.94 39.37 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid f5af95ef-40c7-4a0d-a637-f0ecc9be5979)
-  )
-
-  (label "5V_MUX" (at 245.11 92.71 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 817dacff-63dd-40ce-b385-a98ceb556994)
   )
 
   (global_label "SDA" (shape bidirectional) (at 120.65 44.45 0) (fields_autoplaced)
@@ -2146,13 +2208,13 @@
     (uuid 72aef765-eab8-4700-92cf-92c7e0b19483)
   )
 
-  (symbol (lib_id "Power_Management:INA3221") (at 100.33 41.91 0) (mirror y) (unit 1)
+  (symbol (lib_id "Power_Management:INA3221") (at 100.33 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00398701-3605-40f6-a530-507d29d85820)
-    (property "Reference" "U401" (at 95.5959 21.59 0)
+    (property "Reference" "U401" (at 105.0641 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "INA3221" (at 95.5959 24.13 0)
+    (property "Value" "INA3221" (at 105.0641 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_DFN_QFN:Texas_RGV_S-PVQFN-N16_EP2.1x2.1mm" (at 100.33 13.97 0)
@@ -2219,7 +2281,7 @@
   (symbol (lib_id "power:+3V3") (at 137.16 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09419ef7-674f-47e5-a026-3060981f79f4)
-    (property "Reference" "#PWR0426" (at 137.16 160.02 0)
+    (property "Reference" "#PWR0427" (at 137.16 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 137.16 151.13 0)
@@ -2235,7 +2297,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0426") (unit 1)
+          (reference "#PWR0427") (unit 1)
         )
       )
     )
@@ -2270,7 +2332,7 @@
   (symbol (lib_id "power:GND") (at 146.05 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0fa133ee-7e1a-4cc6-8895-47245b95f4e9)
-    (property "Reference" "#PWR0412" (at 146.05 107.95 0)
+    (property "Reference" "#PWR0413" (at 146.05 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 106.68 0)
@@ -2286,7 +2348,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0412") (unit 1)
+          (reference "#PWR0413") (unit 1)
         )
       )
     )
@@ -2558,7 +2620,7 @@
   (symbol (lib_id "power:GND") (at 96.52 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33dbaca6-9ff0-4437-986e-a510804c044c)
-    (property "Reference" "#PWR0429" (at 96.52 176.53 0)
+    (property "Reference" "#PWR0430" (at 96.52 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 96.52 175.26 0)
@@ -2574,7 +2636,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0429") (unit 1)
+          (reference "#PWR0430") (unit 1)
         )
       )
     )
@@ -2583,7 +2645,7 @@
   (symbol (lib_id "power:GND") (at 243.84 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 346cef88-769f-4b8b-a0f4-1601a485fce8)
-    (property "Reference" "#PWR0414" (at 243.84 109.22 0)
+    (property "Reference" "#PWR0415" (at 243.84 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 243.84 106.68 0)
@@ -2599,7 +2661,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0414") (unit 1)
+          (reference "#PWR0415") (unit 1)
         )
       )
     )
@@ -2775,7 +2837,7 @@
   (symbol (lib_id "power:GND") (at 137.16 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4128f130-f50d-48fb-b6e0-ef5594aeb8f6)
-    (property "Reference" "#PWR0431" (at 137.16 184.15 0)
+    (property "Reference" "#PWR0432" (at 137.16 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 137.16 182.88 0)
@@ -2791,7 +2853,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0431") (unit 1)
+          (reference "#PWR0432") (unit 1)
         )
       )
     )
@@ -2893,7 +2955,7 @@
   (symbol (lib_id "power:+5V") (at 273.05 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4c9a4201-a48a-4b52-a02a-fcff6836923e)
-    (property "Reference" "#PWR0416" (at 273.05 95.25 0)
+    (property "Reference" "#PWR0409" (at 273.05 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 273.05 87.63 0)
@@ -2909,7 +2971,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0416") (unit 1)
+          (reference "#PWR0409") (unit 1)
         )
       )
     )
@@ -2972,7 +3034,7 @@
   (symbol (lib_id "power:GND") (at 86.36 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5da19583-4899-4e29-9186-36b1138cf63b)
-    (property "Reference" "#PWR0413" (at 86.36 109.22 0)
+    (property "Reference" "#PWR0414" (at 86.36 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.36 107.95 0)
@@ -2988,7 +3050,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0413") (unit 1)
+          (reference "#PWR0414") (unit 1)
         )
       )
     )
@@ -3412,7 +3474,7 @@
   (symbol (lib_id "power:GND") (at 132.08 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8dbad36a-5669-4508-8344-3ddbe11b0e57)
-    (property "Reference" "#PWR0411" (at 132.08 107.95 0)
+    (property "Reference" "#PWR0412" (at 132.08 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.08 106.68 0)
@@ -3428,7 +3490,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0411") (unit 1)
+          (reference "#PWR0412") (unit 1)
         )
       )
     )
@@ -3437,7 +3499,7 @@
   (symbol (lib_id "power:+5V") (at 45.72 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e55aa5d-faf4-43ba-9783-5bc5aa54831f)
-    (property "Reference" "#PWR0432" (at 45.72 157.48 0)
+    (property "Reference" "#PWR0426" (at 45.72 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 45.72 149.86 0)
@@ -3453,7 +3515,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0432") (unit 1)
+          (reference "#PWR0426") (unit 1)
         )
       )
     )
@@ -3635,7 +3697,7 @@
   (symbol (lib_id "power:VBUS") (at 203.2 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a17cb394-bed0-4281-8a82-1097a11e29e1)
-    (property "Reference" "#PWR0415" (at 203.2 109.22 0)
+    (property "Reference" "#PWR0416" (at 203.2 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 203.2 100.33 0)
@@ -3651,7 +3713,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0415") (unit 1)
+          (reference "#PWR0416") (unit 1)
         )
       )
     )
@@ -3660,7 +3722,7 @@
   (symbol (lib_id "power:GND") (at 48.26 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4aa4def-59e6-4981-ade2-aa997a314676)
-    (property "Reference" "#PWR0427" (at 48.26 176.53 0)
+    (property "Reference" "#PWR0428" (at 48.26 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 48.26 175.26 0)
@@ -3676,7 +3738,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0427") (unit 1)
+          (reference "#PWR0428") (unit 1)
         )
       )
     )
@@ -3795,10 +3857,35 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 48.26 101.6 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b1f6bc85-9615-418c-9bcf-7fd25868179c)
+    (property "Reference" "#PWR0433" (at 48.26 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 48.26 106.68 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 48.26 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 48.26 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d5b0ec4d-4175-4551-85dc-750fac82ac1f))
+    (instances
+      (project "CycloRadarDemoKit"
+        (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
+          (reference "#PWR0433") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 60.96 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b4e28d29-9ecc-4c43-889f-0a909846da4b)
-    (property "Reference" "#PWR0428" (at 60.96 176.53 0)
+    (property "Reference" "#PWR0429" (at 60.96 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 60.96 175.26 0)
@@ -3814,7 +3901,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0428") (unit 1)
+          (reference "#PWR0429") (unit 1)
         )
       )
     )
@@ -4044,7 +4131,7 @@
   (symbol (lib_id "power:GND") (at 119.38 170.18 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf1965e8-3113-4bec-89c6-57f426f64cda)
-    (property "Reference" "#PWR0430" (at 119.38 176.53 0)
+    (property "Reference" "#PWR0431" (at 119.38 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 119.38 175.26 0)
@@ -4060,7 +4147,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0430") (unit 1)
+          (reference "#PWR0431") (unit 1)
         )
       )
     )
@@ -4207,7 +4294,7 @@
   (symbol (lib_id "power:GND") (at 111.76 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc2d6b49-d676-48ac-9221-251d1301a135)
-    (property "Reference" "#PWR0409" (at 111.76 102.87 0)
+    (property "Reference" "#PWR0410" (at 111.76 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.76 101.6 0)
@@ -4223,7 +4310,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0409") (unit 1)
+          (reference "#PWR0410") (unit 1)
         )
       )
     )
@@ -4250,6 +4337,35 @@
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
           (reference "R403") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Diode:SD05_SOD323") (at 48.26 96.52 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e15fb6f6-ab29-481d-8bab-cd4404ac2fbd)
+    (property "Reference" "D405" (at 50.8 95.25 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "SMBJ20A" (at 50.8 97.79 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Diode_SMD:D_SMB" (at 53.34 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204251600_UMW-Youtai-Semiconductor-Co---Ltd--SMBJ20A_C3001979.pdf" (at 48.26 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C3001979" (at 48.26 96.52 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 5f8da4ad-32d2-44a7-80d2-640c3df78209))
+    (pin "1" (uuid e34f7996-67c8-4365-95b7-f8d30d383113))
+    (instances
+      (project "CycloRadarDemoKit"
+        (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
+          (reference "D405") (unit 1)
         )
       )
     )
@@ -4309,7 +4425,7 @@
   (symbol (lib_id "power:GND") (at 172.72 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed087aee-abe8-4708-bbd8-6b1097bdc9bf)
-    (property "Reference" "#PWR0410" (at 172.72 106.68 0)
+    (property "Reference" "#PWR0411" (at 172.72 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 172.72 104.14 0)
@@ -4325,7 +4441,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0410") (unit 1)
+          (reference "#PWR0411") (unit 1)
         )
       )
     )
