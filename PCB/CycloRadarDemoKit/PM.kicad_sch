@@ -4048,7 +4048,7 @@
     (property "Value" "15uH/1A" (at 125.73 80.01 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 125.73 82.55 0)
+    (property "Footprint" "Inductor_SMD:L_Changjiang_FNR4018S" (at 125.73 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 125.73 82.55 0)
