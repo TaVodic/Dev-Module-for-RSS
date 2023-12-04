@@ -1397,7 +1397,7 @@
     (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
     (uuid f86be637-b064-4e61-af38-ab91b6d05990)
   )
-  (text "If the SLEEP pin is not required \nit need to be tight low"
+  (text "If the SLEEP pin is not required,\nit need to be tight low"
     (at 148.59 158.75 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fd5311c0-44bf-4171-9266-a4f59874babb)
