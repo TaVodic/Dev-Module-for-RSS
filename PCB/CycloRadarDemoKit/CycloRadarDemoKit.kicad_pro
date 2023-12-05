@@ -122,10 +122,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.19999999999999998,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.09,
         "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.44999999999999996,
+        "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -187,12 +187,12 @@
           "drill": 0.2
         },
         {
-          "diameter": 0.56,
+          "diameter": 0.5,
           "drill": 0.3
         },
         {
-          "diameter": 0.66,
-          "drill": 0.4
+          "diameter": 0.56,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": true
@@ -548,7 +548,7 @@
     ],
     [
       "db1e19a0-821c-4756-9ad0-6b0269412516",
-      "USB + LED"
+      "USB"
     ],
     [
       "8e86b850-15ce-40c4-bda7-5d0afa1e377d",
@@ -557,6 +557,10 @@
     [
       "d5bea8d6-1b3a-4b92-a89f-c43c2ab6f30a",
       "IMU + ANT"
+    ],
+    [
+      "fd95a6e5-ff33-4efa-9313-7c05fe19d19f",
+      "LED + Buzzer"
     ]
   ],
   "text_variables": {}
