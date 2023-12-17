@@ -2490,7 +2490,7 @@
     (property "Footprint" "IP101GRI:QFN_IP101GRI_WIZ" (at 97.79 40.64 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "IP101GRI" (at 97.79 40.64 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206021645_WIZNET-IP101GRI_C910373.pdf" (at 97.79 40.64 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "LCSC" "C703537" (at 91.44 49.53 0)
