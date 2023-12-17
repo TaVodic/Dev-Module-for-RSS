@@ -2305,7 +2305,7 @@
     (uuid 2637db4c-394d-42b6-8d53-944e06eab5f8)
   )
   (text "Maximum electrical ratings:\nCP2102N 3V3 10mA (USB)\nESP32 3V3 500mA\nMPU 3V3 4mA\nD52 ANT 3V3 20mA\nIP101 PHY 3V3 500mA\nPMICs 3.3V 0.5mA + 0.4mA + 0.03mA + 0.3mA = 1.3mA\nRESERVE: 200mA\n3V3 1.23A = 4W -> (94%)@4.24W\n\nLEDs 5V 720mA = 3.6W + 4.24W -> (87%)@8.8592W\nRadar 12V 500mA = 6W -> (90%)@6.6W \n\n15.46W -> 	20V @ 773mA\n			16.5V @ 937mA\n\n\n"
-    (at 300.99 58.42 0)
+    (at 314.96 48.26 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 29195fa7-7cf1-41da-8a52-de278b9ef6fa)
   )
