@@ -552,7 +552,7 @@
     ],
     [
       "8e86b850-15ce-40c4-bda7-5d0afa1e377d",
-      "Power management"
+      "20V + 12V"
     ],
     [
       "d5bea8d6-1b3a-4b92-a89f-c43c2ab6f30a",
@@ -561,6 +561,14 @@
     [
       "fd95a6e5-ff33-4efa-9313-7c05fe19d19f",
       "LED + Buzzer"
+    ],
+    [
+      "724c5e61-df30-4d89-bd6d-7121cc967a43",
+      "5V + 3V3"
+    ],
+    [
+      "621cac9b-ef3d-4a37-be45-aae7901810ec",
+      "ESP32"
     ]
   ],
   "text_variables": {}

@@ -26,7 +26,7 @@ https://www.overleaf.com/read/hrqsdpdkjjvk
 
 ### Power management
 
-![](graphics/BlockDiagram-PowerManagement.svg)
+![](graphics/BlockDiagram-PowerManagement2.svg)
 
 #### Components
 
