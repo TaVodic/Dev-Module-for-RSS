@@ -7,7 +7,7 @@
   (title_block
     (title "Radar Safety Sensor")
     (date "2023-12-20")
-    (rev "Rev.: 1")
+    (rev "Rev.: 1.0")
     (company "ALPS Electric Czech, s.r.o.")
     (comment 1 "Designed by Martin Tavoda")
   )
@@ -952,7 +952,7 @@
     (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
     (uuid 8d223ef8-64cc-4d1c-8a19-8076c2e0d521)
   )
-  (text "I_{max}=1.568A" (at 105.41 57.15 0)
+  (text "I_{max}=1.568A" (at 106.68 57.15 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b94804e1-fbf5-442f-9b78-962d78aeacc3)
   )

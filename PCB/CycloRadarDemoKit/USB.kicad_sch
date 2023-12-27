@@ -7,7 +7,7 @@
   (title_block
     (title "Radar Safety Sensor")
     (date "2023-12-20")
-    (rev "Rev.: 1")
+    (rev "Rev.: 1.0")
     (company "ALPS Electric Czech, s.r.o.")
     (comment 1 "Designed by Martin Tavoda")
   )

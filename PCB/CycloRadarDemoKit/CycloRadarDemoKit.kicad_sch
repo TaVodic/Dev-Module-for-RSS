@@ -7,7 +7,7 @@
   (title_block
     (title "Radar Safety Sensor")
     (date "2023-12-20")
-    (rev "Rev.: 1")
+    (rev "Rev.: 1.0")
     (company "ALPS Electric Czech, s.r.o.")
     (comment 1 "Designed by Martin Tavoda")
   )
@@ -668,7 +668,7 @@
     (stroke (width 0) (type default))
     (uuid 1fa94d65-e334-4158-bc1c-0a2ea56b576d)
   )
-  (wire (pts (xy 217.17 111.76) (xy 246.38 111.76))
+  (wire (pts (xy 215.9 111.76) (xy 246.38 111.76))
     (stroke (width 0) (type default))
     (uuid 2119a8f4-f228-4446-b0bf-3101454b9d85)
   )
@@ -704,7 +704,7 @@
     (stroke (width 0) (type default))
     (uuid 391d0761-a556-4d1c-959b-d5dfd281292f)
   )
-  (wire (pts (xy 219.71 114.3) (xy 219.71 68.58))
+  (wire (pts (xy 218.44 114.3) (xy 218.44 68.58))
     (stroke (width 0) (type default))
     (uuid 39ef6ffc-dfff-4117-be7d-9479c581c48d)
   )
@@ -720,7 +720,7 @@
     (stroke (width 0) (type default))
     (uuid 42d9210b-211e-48e8-b775-56ed7ceb380e)
   )
-  (wire (pts (xy 217.17 111.76) (xy 217.17 66.04))
+  (wire (pts (xy 215.9 111.76) (xy 215.9 66.04))
     (stroke (width 0) (type default))
     (uuid 43c0ba57-693b-4932-a31e-5565c14e604c)
   )
@@ -788,7 +788,7 @@
     (stroke (width 0) (type default))
     (uuid 62e4a9b8-b31d-422e-b136-9a91ecd8e730)
   )
-  (wire (pts (xy 219.71 68.58) (xy 246.38 68.58))
+  (wire (pts (xy 218.44 68.58) (xy 246.38 68.58))
     (stroke (width 0) (type default))
     (uuid 63d027a0-0496-4a02-8890-f7437cdd73fa)
   )
@@ -832,7 +832,7 @@
     (stroke (width 0) (type default))
     (uuid 90857396-c677-414d-929c-c9c254d1d721)
   )
-  (wire (pts (xy 217.17 66.04) (xy 246.38 66.04))
+  (wire (pts (xy 215.9 66.04) (xy 246.38 66.04))
     (stroke (width 0) (type default))
     (uuid 91a738a1-37e5-4543-97f9-fd41ab2d301b)
   )
@@ -902,7 +902,7 @@
     (stroke (width 0) (type default))
     (uuid f3df3784-2839-4945-a355-6bd49f26e2fe)
   )
-  (wire (pts (xy 219.71 114.3) (xy 246.38 114.3))
+  (wire (pts (xy 218.44 114.3) (xy 246.38 114.3))
     (stroke (width 0) (type default))
     (uuid f46ff07a-24b3-4347-98a1-68425a457f60)
   )
@@ -1537,14 +1537,14 @@
     )
   )
 
-  (sheet (at 102.87 44.45) (size 52.07 102.87) (fields_autoplaced)
+  (sheet (at 102.87 44.45) (size 52.07 96.52) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.1000))
     (uuid 621cac9b-ef3d-4a37-be45-aae7901810ec)
     (property "Sheetname" "ESP32" (at 102.87 43.7384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "ESP32.kicad_sch" (at 102.87 147.9046 0)
+    (property "Sheetfile" "ESP32.kicad_sch" (at 102.87 141.5546 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (pin "Radar_GPIO" bidirectional (at 154.94 134.62 0)
@@ -1645,7 +1645,7 @@
     )
     (instances
       (project "CycloRadarDemoKit"
-        (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9" (page "8"))
+        (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9" (page "2"))
       )
     )
   )
@@ -1670,7 +1670,7 @@
     )
     (instances
       (project "CycloRadarDemoKit"
-        (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9" (page "7"))
+        (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9" (page "8"))
       )
     )
   )
@@ -1727,7 +1727,7 @@
     )
     (instances
       (project "CycloRadarDemoKit"
-        (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9" (page "2"))
+        (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9" (page "3"))
       )
     )
   )
@@ -1756,7 +1756,7 @@
     )
     (instances
       (project "CycloRadarDemoKit"
-        (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9" (page "4"))
+        (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9" (page "7"))
       )
     )
   )
@@ -1789,7 +1789,7 @@
     )
     (instances
       (project "CycloRadarDemoKit"
-        (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9" (page "5"))
+        (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9" (page "4"))
       )
     )
   )
@@ -1829,7 +1829,7 @@
     )
     (instances
       (project "CycloRadarDemoKit"
-        (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9" (page "3"))
+        (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9" (page "6"))
       )
     )
   )
@@ -1858,7 +1858,7 @@
     )
     (instances
       (project "CycloRadarDemoKit"
-        (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9" (page "6"))
+        (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9" (page "5"))
       )
     )
   )
