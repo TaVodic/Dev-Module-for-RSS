@@ -1,4 +1,4 @@
-22548599119684769
+22552011656747088
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -17961,6 +17961,13 @@ Connector
 0
 2
 2
+Connector_Molex
+Molex_347920040
+34792-0040-2
+Connector
+0
+4
+4
 Connector_Molex
 Molex_347930040
 34793-0040-2
@@ -42986,6 +42993,13 @@ ethernet 8p8c transformer magjack
 0
 12
 11
+Connector_RJ
+RJ45_Taoglas_TMJD0012BENL
+
+TMJD0012BENL 
+0
+16
+16
 Connector_RJ
 RJ45_UDE_RB1-125B8G1A
 1 Port RJ45 Connector Through Hole 10/100/1000 Base-T, https://datasheet.lcsc.com/szlcsc/1901091107_UDE-Corp-RB1-125B8G1A_C363353.pdf#page=3
