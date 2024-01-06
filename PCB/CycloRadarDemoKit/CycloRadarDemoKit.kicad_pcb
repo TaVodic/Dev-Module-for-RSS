@@ -290,7 +290,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "F.Cu")
     (tstamp 0011f5f9-1848-40b5-975f-4a78aebd430c)
-    (at 121.05 142.625)
+    (at 123.8 138.575)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "IMU&ANT.kicad_sch")
@@ -589,7 +589,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 06a5370d-883e-4aef-b7b7-719f52d9dcd2)
-    (at 135.3 138.325)
+    (at 118.55 124.825)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "LCSC" "C17477")
@@ -700,7 +700,7 @@
 
   (footprint "Capacitor_SMD:C_1206_3216Metric" (layer "F.Cu")
     (tstamp 0863956b-73eb-4765-800f-ea6f3643057a)
-    (at 171.3 142.575 90)
+    (at 131.675 140.825 90)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "LCSC" "C87162")
@@ -755,7 +755,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric" (layer "F.Cu")
     (tstamp 099f7874-8a42-4aa0-859a-e6bf0a0104bd)
-    (at 154.8 136.075)
+    (at 154.125 141.075)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED")
     (property "LCSC" "C284922")
@@ -1097,7 +1097,7 @@
 
   (footprint "Capacitor_SMD:C_1206_3216Metric" (layer "F.Cu")
     (tstamp 0ef51dfa-7ede-4bf2-b5e6-fc092d60bfcf)
-    (at 159.55 137.325)
+    (at 122.05 132.825)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "JLC" "")
@@ -1268,7 +1268,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp 134f365f-eb87-4a28-98aa-23a136fe562f)
-    (at 145.55 99.5 -90)
+    (at 140.8 98.075 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "CycloRadarDemoKit.kicad_sch")
@@ -1802,7 +1802,7 @@
 
   (footprint "MountingHole:MountingHole_2.7mm_M2.5_ISO7380" (layer "F.Cu")
     (tstamp 1dc3bbdc-d3b3-42c4-b698-66aefc09ae29)
-    (at 206.8 65.075)
+    (at 164.05 142.825)
     (descr "Mounting Hole 2.7mm, no annular, M2.5, ISO7380")
     (tags "mounting hole 2.7mm no annular m2.5 iso7380")
     (property "Sheetfile" "CycloRadarDemoKit.kicad_sch")
@@ -1812,7 +1812,7 @@
     (property "ki_keywords" "mounting hole")
     (path "/9369c0f8-4a48-4408-b84f-417e060b78ab")
     (attr exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "H104" (at 0 -3.25) (layer "F.SilkS")
+    (fp_text reference "H104" (at 0 -3.25) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b5ddfed4-5e99-47be-b502-ed45f659c9b2)
     )
@@ -2017,7 +2017,7 @@
 
   (footprint "MountingHole:MountingHole_2.7mm_M2.5_ISO7380" (layer "F.Cu")
     (tstamp 21c812bd-0d74-4014-b412-c95cc245896b)
-    (at 206.8 59.025)
+    (at 123.05 142.825)
     (descr "Mounting Hole 2.7mm, no annular, M2.5, ISO7380")
     (tags "mounting hole 2.7mm no annular m2.5 iso7380")
     (property "Sheetfile" "CycloRadarDemoKit.kicad_sch")
@@ -2027,7 +2027,7 @@
     (property "ki_keywords" "mounting hole")
     (path "/7da50d48-ea7a-4184-aa41-0c87112b6369")
     (attr exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "H103" (at 0 -3.25) (layer "F.SilkS")
+    (fp_text reference "H103" (at 0 -3.25) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 80c071d2-c799-4c97-b06d-79d75aa527be)
     )
@@ -2282,7 +2282,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 2a845b19-f3cd-469f-b3c9-09c4fd187fa4)
-    (at 168.55 139.325)
+    (at 128.925 137.575)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "LCSC" "C17477")
@@ -3714,7 +3714,7 @@
 
   (footprint "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" (layer "F.Cu")
     (tstamp 47f92137-8e72-4f57-a201-066ac908370c)
-    (at 152.8 142.575)
+    (at 156.35 137.325)
     (descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers")
     (tags "net tie solder jumper bridged")
     (property "Sheetfile" "IMU&ANT.kicad_sch")
@@ -5093,7 +5093,7 @@
 
   (footprint "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" (layer "F.Cu")
     (tstamp 73a382a5-c327-41da-9009-80c262aeab2f)
-    (at 171.05 133.825 90)
+    (at 171.05 132.825 90)
     (descr "3.5mm x 3.5mm PLCC4 Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf")
     (tags "LED RGB NeoPixel Mini PLCC-4 3535")
     (property "LCSC" "C527089")
@@ -6879,7 +6879,7 @@
     (property "ki_keywords" "LED diode")
     (path "/8e86b850-15ce-40c4-bda7-5d0afa1e377d/997cb54a-b66b-43ad-a600-5d20fbc9aa69")
     (attr smd)
-    (fp_text reference "D404" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "D404" (at -4.25 -3.75) (layer "F.SilkS")
         (effects (font (size 0.6 0.6) (thickness 0.09)))
       (tstamp 36a77244-12d0-4cb4-a7b2-12b2cbbaebee)
     )
@@ -8104,7 +8104,7 @@
 
   (footprint "Capacitor_SMD:C_1206_3216Metric" (layer "F.Cu")
     (tstamp a387c717-5d32-4050-a7f3-56615f639830)
-    (at 167.55 143.1 90)
+    (at 171.3 139.625 90)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "JLC" "")
@@ -8448,7 +8448,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp a9d153fa-ee73-4840-b571-20937322d565)
-    (at 154.8 138.825)
+    (at 154.125 143.825)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "LCSC" "C22764")
@@ -8503,7 +8503,7 @@
 
   (footprint "Package_TO_SOT_SMD:TSOT-23-6" (layer "F.Cu")
     (tstamp af9e88a8-3ad3-448b-ae6b-1332a8407ba2)
-    (at 164.8 136.825)
+    (at 116.4125 140.125)
     (descr "TSOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "TSOT TO_SOT_SMD")
     (property "LCSC" "C2071056")
@@ -8572,7 +8572,7 @@
 
   (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" (layer "F.Cu")
     (tstamp b054811d-3b5b-4db1-831f-10362600d523)
-    (at 129.55 140.325)
+    (at 147.3 99.075)
     (descr "surface-mounted straight pin header, 2x05, 1.27mm pitch, double rows")
     (tags "Surface mounted pin header SMD 2x05 1.27mm double row")
     (property "Sheetfile" "IMU&ANT.kicad_sch")
@@ -9285,7 +9285,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/8e86b850-15ce-40c4-bda7-5d0afa1e377d/ae9c1b89-829a-4a56-8f2c-8c5692dfdf52")
     (attr smd)
-    (fp_text reference "R413" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R413" (at 0.25 -2) (layer "F.SilkS")
         (effects (font (size 0.6 0.6) (thickness 0.09)))
       (tstamp ab3b75de-e7a3-4f46-aa62-830b51d362f8)
     )
@@ -9440,7 +9440,7 @@
 
   (footprint "MountingHole:MountingHole_2.7mm_M2.5_ISO7380" (layer "F.Cu")
     (tstamp b7820f40-8d6a-44d5-9d6b-565dbaeb1a2d)
-    (at 206.8 52.975)
+    (at 164.05 38.825)
     (descr "Mounting Hole 2.7mm, no annular, M2.5, ISO7380")
     (tags "mounting hole 2.7mm no annular m2.5 iso7380")
     (property "Sheetfile" "CycloRadarDemoKit.kicad_sch")
@@ -9450,7 +9450,7 @@
     (property "ki_keywords" "mounting hole")
     (path "/0362d629-85e6-4870-af6b-c1a3a64f9bbc")
     (attr exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "H102" (at 0 -3.25) (layer "F.SilkS")
+    (fp_text reference "H102" (at 0 -3.25) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7f9dd5fd-4d55-40ad-bfae-5a931d0d64c4)
     )
@@ -12484,7 +12484,7 @@
 
   (footprint "MountingHole:MountingHole_2.7mm_M2.5_ISO7380" (layer "F.Cu")
     (tstamp e253a183-368e-4c11-9e6a-b4eee2882253)
-    (at 206.8 46.925)
+    (at 123.05 38.825)
     (descr "Mounting Hole 2.7mm, no annular, M2.5, ISO7380")
     (tags "mounting hole 2.7mm no annular m2.5 iso7380")
     (property "Sheetfile" "CycloRadarDemoKit.kicad_sch")
@@ -12494,7 +12494,7 @@
     (property "ki_keywords" "mounting hole")
     (path "/26a2cb89-fc68-484d-a73a-894ae89e2419")
     (attr exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "H101" (at 0 -3.25) (layer "F.SilkS")
+    (fp_text reference "H101" (at 0 -3.25) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d44fb9b9-e4c4-425e-af24-82e444bd313c)
     )
@@ -12909,7 +12909,7 @@
 
   (footprint "Inductor_SMD:L_Sunlord_SWPA4020S" (layer "F.Cu")
     (tstamp f22eb04f-2c27-49ec-8179-0d0774e7ab73)
-    (at 159.05 142.825)
+    (at 162.35 136.825)
     (descr "Inductor, Sunlord, SWPA4020S, 4.0x4.0x2.0mm, https://www.sunlordinc.com/UploadFiles/PDF_Cat/20120704094224784.pdf")
     (tags "Inductor swpa")
     (property "LCSC" "C98363")
@@ -13028,7 +13028,7 @@
 
   (footprint "Capacitor_SMD:C_1206_3216Metric" (layer "F.Cu")
     (tstamp f32f5242-7fdf-439c-9df3-54634293f495)
-    (at 164.05 142.575 90)
+    (at 167.8 139.1 90)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "LCSC" "C77090")
@@ -13735,7 +13735,7 @@
 
   (footprint "OptoDevice:R_LDR_5.1x4.3mm_P3.4mm_Vertical" (layer "B.Cu")
     (tstamp 4faae2b5-804c-49d2-9a29-df1ce0a8d7c7)
-    (at 124.5 38.825 180)
+    (at 160 38.825 180)
     (descr "Resistor, LDR 5.1x3.4mm, see http://yourduino.com/docs/Photoresistor-5516-datasheet.pdf")
     (tags "Resistor LDR5.1x3.4mm")
     (property "Sheetfile" "LEDbuzzer.kicad_sch")
@@ -14029,7 +14029,7 @@
 
   (footprint "Buzzer_Beeper:Buzzer_D9mm_P5mm" (layer "B.Cu")
     (tstamp ef4b4297-49f9-494d-b97d-eba820319c66)
-    (at 167.3 40.575 180)
+    (at 161.3 56.825)
     (descr "Buzzer, D12.2mm height 6.5mm, https://product.tdk.com/info/en/catalog/datasheets/piezoelectronic_buzzer_ps_en.pdf")
     (tags "buzzer")
     (property "Mouser" "253-AX905P3")
@@ -14061,9 +14061,9 @@
       (stroke (width 0.1) (type solid)) (fill none) (layer "B.Fab") (tstamp 7f90ef76-9b20-4881-8c79-23e4b35865f5))
     (fp_circle (center 2.5 0) (end 7 0)
       (stroke (width 0.1) (type solid)) (fill none) (layer "B.Fab") (tstamp a9ac12b8-f06f-4d92-9e3b-56309309a9ca))
-    (pad "1" thru_hole rect (at 0 0 180) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole rect (at 0 0) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask")
       (net 77 "+5V") (pinfunction "-") (pintype "passive") (tstamp 936db01c-428f-4bbe-87d8-90abf4c047aa))
-    (pad "2" thru_hole circle (at 5 0 180) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole circle (at 5 0) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask")
       (net 147 "Net-(BZ601-+)") (pinfunction "+") (pintype "passive") (tstamp 0162d5f2-2067-4c52-9317-bbed093c94fd))
     (model "${KICAD6_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm.wrl" hide
       (offset (xyz 0 0 0))
