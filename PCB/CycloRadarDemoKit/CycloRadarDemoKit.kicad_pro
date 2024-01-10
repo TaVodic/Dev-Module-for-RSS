@@ -120,8 +120,8 @@
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.7999999999999999,
-        "min_text_thickness": 0.08,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.153,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.09,
         "min_via_annular_width": 0.13,
@@ -592,7 +592,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "C:/Users/Martin/Documents/Creo/ALPS_RSS_devKit/PCB/CycloRadarDemoKit_v3.step",
+      "step": "C:/Users/Martin/Documents/Creo/ALPS_RSS_devKit/CycloRadarDemoKit_v5.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
