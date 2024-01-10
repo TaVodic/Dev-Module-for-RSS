@@ -1243,7 +1243,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 17cdc876-ee5b-44df-855d-bb8ba7e988a9)
   )
-  (text "MPU I2C addr.: \n0b1101000\n" (at 64.77 152.4 0)
+  (text "MPU I2C addr.: \n0x68 0b1101000\n" (at 64.77 152.4 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 27ba574a-da33-4cd2-a20b-884fc536f19d)
   )
@@ -1367,7 +1367,7 @@
     )
   )
 
-  (hierarchical_label "RTS" (shape output) (at 179.07 83.82 0) (fields_autoplaced)
+  (hierarchical_label "RTS" (shape input) (at 179.07 83.82 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 1e557a62-5997-4701-bf6f-54fc912a6b7b)
   )

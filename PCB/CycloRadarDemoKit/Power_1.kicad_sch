@@ -1649,7 +1649,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 6baee1ab-5e06-4c0b-8b33-ff67d659bd34)
   )
-  (hierarchical_label "PMIC_PV" (shape input) (at 157.48 38.1 0) (fields_autoplaced)
+  (hierarchical_label "PMIC_PV" (shape output) (at 157.48 38.1 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 72aef765-eab8-4700-92cf-92c7e0b19483)
   )
