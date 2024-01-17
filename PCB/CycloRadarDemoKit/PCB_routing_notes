@@ -15,3 +15,10 @@ RMII
 
 ETH conn RJ45
 	Ground plane around RJ45
+
+vias can be inside PAD
+
+Twisted pair
+	Traces between PHY device, transformer and RJ45 connector should be
+	designed with a differential impedance of 100Ω±10% and with an
+	impedance of 50Ω related to GND.

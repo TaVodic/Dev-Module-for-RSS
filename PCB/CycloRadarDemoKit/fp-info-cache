@@ -1,4 +1,4 @@
-22553719314957187
+22555424816243407
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -92910,3 +92910,10 @@ ALPS_USRR5
 0
 10
 10
+alps_modules
+ALPS_USRR5_woPins
+
+
+0
+0
+0

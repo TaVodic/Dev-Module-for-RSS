@@ -1661,7 +1661,7 @@
   (symbol (lib_id "Power_Management:INA3221") (at 137.16 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00398701-3605-40f6-a530-507d29d85820)
-    (property "Reference" "U401" (at 141.8941 27.94 0)
+    (property "Reference" "U701" (at 141.8941 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "INA3221" (at 141.8941 30.48 0)
@@ -1696,7 +1696,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "U401") (unit 1)
+          (reference "U701") (unit 1)
         )
       )
     )
@@ -1705,7 +1705,7 @@
   (symbol (lib_id "Device:LED") (at 212.725 118.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0547376e-6cbf-4cd1-90a8-7114c44551f8)
-    (property "Reference" "D401" (at 216.535 118.4275 90)
+    (property "Reference" "D701" (at 216.535 118.4275 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED_12V" (at 216.535 120.9675 90)
@@ -1725,7 +1725,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "D401") (unit 1)
+          (reference "D701") (unit 1)
         )
       )
     )
@@ -1734,7 +1734,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 47.625 113.03 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0aaf2933-5e70-42ed-9a6d-de2913d050d8)
-    (property "Reference" "J401" (at 47.625 104.14 0)
+    (property "Reference" "J701" (at 47.625 104.14 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "20-16V Supply Voltage" (at 47.625 106.68 0)
@@ -1754,7 +1754,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "J401") (unit 1)
+          (reference "J701") (unit 1)
         )
       )
     )
@@ -1763,7 +1763,7 @@
   (symbol (lib_id "power:GND") (at 182.88 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0fa133ee-7e1a-4cc6-8895-47245b95f4e9)
-    (property "Reference" "#PWR0411" (at 182.88 138.43 0)
+    (property "Reference" "#PWR0711" (at 182.88 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.88 137.16 0)
@@ -1779,7 +1779,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0411") (unit 1)
+          (reference "#PWR0711") (unit 1)
         )
       )
     )
@@ -1811,7 +1811,7 @@
           (reference "R215") (unit 1)
         )
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "R412") (unit 1)
+          (reference "R712") (unit 1)
         )
       )
     )
@@ -1820,7 +1820,7 @@
   (symbol (lib_id "Device:C_Small") (at 101.6 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 13683018-9ed6-447a-9e4f-7522428284c9)
-    (property "Reference" "C401" (at 93.345 71.12 90)
+    (property "Reference" "C701" (at 93.345 71.12 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1uF/50V(10%)" (at 89.0511 73.6664 90)
@@ -1840,7 +1840,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "C401") (unit 1)
+          (reference "C701") (unit 1)
         )
       )
     )
@@ -1849,7 +1849,7 @@
   (symbol (lib_id "power:GND") (at 135.89 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1dd09e0a-b8f3-4989-871d-5d98c1f62212)
-    (property "Reference" "#PWR0408" (at 135.89 128.27 0)
+    (property "Reference" "#PWR0708" (at 135.89 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 135.89 125.73 0)
@@ -1865,7 +1865,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0408") (unit 1)
+          (reference "#PWR0708") (unit 1)
         )
       )
     )
@@ -1874,7 +1874,7 @@
   (symbol (lib_id "power:GND") (at 53.975 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ed07314-d3aa-4bcc-b9c4-c6960ba3349f)
-    (property "Reference" "#PWR0406" (at 53.975 123.19 0)
+    (property "Reference" "#PWR0706" (at 53.975 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 53.975 121.92 0)
@@ -1890,7 +1890,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0406") (unit 1)
+          (reference "#PWR0706") (unit 1)
         )
       )
     )
@@ -1899,7 +1899,7 @@
   (symbol (lib_id "power:+12V") (at 212.725 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1fab8df6-c25d-4080-a0f5-a74daea6b362)
-    (property "Reference" "#PWR0405" (at 212.725 114.3 0)
+    (property "Reference" "#PWR0705" (at 212.725 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 211.455 105.41 0)
@@ -1915,7 +1915,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0405") (unit 1)
+          (reference "#PWR0705") (unit 1)
         )
       )
     )
@@ -1924,7 +1924,7 @@
   (symbol (lib_id "Simulation_SPICE:PMOS") (at 69.215 113.03 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20befdcd-9ae3-4d78-9c52-6774c4d798f4)
-    (property "Reference" "Q401" (at 69.215 104.14 90)
+    (property "Reference" "Q701" (at 69.215 104.14 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SI2309CDS" (at 69.215 106.68 90)
@@ -1954,7 +1954,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "Q401") (unit 1)
+          (reference "Q701") (unit 1)
         )
       )
     )
@@ -1963,7 +1963,7 @@
   (symbol (lib_id "Regulator_Switching:RT8259") (at 135.89 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 289a014d-c83b-4293-a1f4-c9c7e0610c25)
-    (property "Reference" "U402" (at 135.89 102.87 0)
+    (property "Reference" "U702" (at 135.89 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RT8259" (at 135.89 105.41 0)
@@ -1987,7 +1987,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "U402") (unit 1)
+          (reference "U702") (unit 1)
         )
       )
     )
@@ -1996,7 +1996,7 @@
   (symbol (lib_id "Device:R") (at 97.155 81.28 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f322426-95fe-47c7-876a-e5b1dbecb282)
-    (property "Reference" "R402" (at 94.615 80.01 0)
+    (property "Reference" "R702" (at 94.615 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10R(1%)" (at 94.615 82.55 0)
@@ -2016,7 +2016,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "R402") (unit 1)
+          (reference "R702") (unit 1)
         )
       )
     )
@@ -2025,7 +2025,7 @@
   (symbol (lib_id "Device:R") (at 101.6 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 368ddb82-b10c-4085-b2a4-3220b87681eb)
-    (property "Reference" "R406" (at 101.6 116.84 90)
+    (property "Reference" "R706" (at 101.6 116.84 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.16R(5%)" (at 101.6 114.3 90)
@@ -2048,7 +2048,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "R406") (unit 1)
+          (reference "R706") (unit 1)
         )
       )
     )
@@ -2057,7 +2057,7 @@
   (symbol (lib_id "power:GND") (at 134.62 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3840ba1b-78a4-43de-a85b-189ced3e11aa)
-    (property "Reference" "#PWR0402" (at 134.62 69.85 0)
+    (property "Reference" "#PWR0702" (at 134.62 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 134.62 68.58 0)
@@ -2073,7 +2073,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0402") (unit 1)
+          (reference "#PWR0702") (unit 1)
         )
       )
     )
@@ -2082,7 +2082,7 @@
   (symbol (lib_id "Device:R") (at 168.91 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3e26deb5-0b95-4ece-9be1-7ca26a0f4f62)
-    (property "Reference" "R409" (at 171.45 116.84 0)
+    (property "Reference" "R709" (at 171.45 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "51K(1%)" (at 171.45 119.38 0)
@@ -2105,7 +2105,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "R409") (unit 1)
+          (reference "R709") (unit 1)
         )
       )
     )
@@ -2114,7 +2114,7 @@
   (symbol (lib_id "Device:R") (at 186.055 81.28 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f5c223c-ccc2-4885-9376-efdd38a8828a)
-    (property "Reference" "R404" (at 183.515 80.01 0)
+    (property "Reference" "R704" (at 183.515 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10R(1%)" (at 183.515 82.55 0)
@@ -2134,7 +2134,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "R404") (unit 1)
+          (reference "R704") (unit 1)
         )
       )
     )
@@ -2143,7 +2143,7 @@
   (symbol (lib_id "power:GND") (at 68.58 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 406ed28c-6725-4820-b728-25f3846bec11)
-    (property "Reference" "#PWR0416" (at 68.58 179.07 0)
+    (property "Reference" "#PWR0716" (at 68.58 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 68.58 177.8 0)
@@ -2159,7 +2159,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0416") (unit 1)
+          (reference "#PWR0716") (unit 1)
         )
       )
     )
@@ -2168,7 +2168,7 @@
   (symbol (lib_id "power:GND") (at 127 172.72 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4bf7e70b-4072-4354-9bcb-536a0d662ab8)
-    (property "Reference" "#PWR0418" (at 127 179.07 0)
+    (property "Reference" "#PWR0718" (at 127 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 127 177.8 0)
@@ -2184,7 +2184,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0418") (unit 1)
+          (reference "#PWR0718") (unit 1)
         )
       )
     )
@@ -2193,7 +2193,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 210.185 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 59470a65-0fa6-4376-8523-3dddf6deb839)
-    (property "Reference" "#FLG0401" (at 210.185 108.585 0)
+    (property "Reference" "#FLG0701" (at 210.185 108.585 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 210.185 105.41 0)
@@ -2209,7 +2209,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#FLG0401") (unit 1)
+          (reference "#FLG0701") (unit 1)
         )
       )
     )
@@ -2218,7 +2218,7 @@
   (symbol (lib_id "power:GND") (at 123.19 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5da19583-4899-4e29-9186-36b1138cf63b)
-    (property "Reference" "#PWR0413" (at 123.19 139.7 0)
+    (property "Reference" "#PWR0713" (at 123.19 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 123.19 138.43 0)
@@ -2234,7 +2234,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0413") (unit 1)
+          (reference "#PWR0713") (unit 1)
         )
       )
     )
@@ -2243,7 +2243,7 @@
   (symbol (lib_id "power:GND") (at 69.215 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5fa11b0b-6e57-4cbc-b98f-c1eb37470cab)
-    (property "Reference" "#PWR0407" (at 69.215 123.19 0)
+    (property "Reference" "#PWR0707" (at 69.215 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 69.215 121.92 0)
@@ -2259,7 +2259,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0407") (unit 1)
+          (reference "#PWR0707") (unit 1)
         )
       )
     )
@@ -2287,7 +2287,7 @@
           (reference "#PWR0216") (unit 1)
         )
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0401") (unit 1)
+          (reference "#PWR0701") (unit 1)
         )
       )
     )
@@ -2296,7 +2296,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 152.4 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 720690f5-cd9e-4a6d-809a-03edfd78937a)
-    (property "Reference" "#FLG0402" (at 152.4 158.115 0)
+    (property "Reference" "#FLG0702" (at 152.4 158.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 152.4 154.94 0)
@@ -2312,7 +2312,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#FLG0402") (unit 1)
+          (reference "#FLG0702") (unit 1)
         )
       )
     )
@@ -2321,7 +2321,7 @@
   (symbol (lib_id "Device:R") (at 168.91 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 75d992c1-a45f-4b20-b1eb-3cce7e021338)
-    (property "Reference" "R411" (at 171.45 127 0)
+    (property "Reference" "R711" (at 171.45 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.6K(1%)" (at 171.45 129.54 0)
@@ -2344,7 +2344,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "R411") (unit 1)
+          (reference "R711") (unit 1)
         )
       )
     )
@@ -2353,7 +2353,7 @@
   (symbol (lib_id "Device:C_Small") (at 151.13 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 783737b7-fee8-4bc7-a1a3-89f0383495a7)
-    (property "Reference" "C403" (at 151.13 104.14 90)
+    (property "Reference" "C703" (at 151.13 104.14 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10nF/50V(10%)" (at 151.13 106.68 90)
@@ -2376,7 +2376,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "C403") (unit 1)
+          (reference "C703") (unit 1)
         )
       )
     )
@@ -2385,7 +2385,7 @@
   (symbol (lib_id "Device:R") (at 212.725 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b84ecee-3d30-49aa-8f00-a61c7d83fe08)
-    (property "Reference" "R410" (at 215.265 125.73 0)
+    (property "Reference" "R710" (at 215.265 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2K" (at 215.265 128.27 0)
@@ -2405,7 +2405,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "R410") (unit 1)
+          (reference "R710") (unit 1)
         )
       )
     )
@@ -2414,7 +2414,7 @@
   (symbol (lib_id "Device:C_Small") (at 104.14 165.1 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f7531e3-99b2-4f8d-8d70-0302131bb16b)
-    (property "Reference" "C407" (at 106.68 163.83 0)
+    (property "Reference" "C707" (at 106.68 163.83 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22uF/16V(20%)" (at 106.68 166.3636 0)
@@ -2437,7 +2437,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "C407") (unit 1)
+          (reference "C707") (unit 1)
         )
       )
     )
@@ -2469,7 +2469,7 @@
           (reference "R215") (unit 1)
         )
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "R408") (unit 1)
+          (reference "R708") (unit 1)
         )
       )
     )
@@ -2478,7 +2478,7 @@
   (symbol (lib_id "Regulator_Switching:AP63205WU") (at 68.58 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8af9b38d-3601-47a9-aec0-5d96b5d830b2)
-    (property "Reference" "U403" (at 68.58 153.67 0)
+    (property "Reference" "U703" (at 68.58 153.67 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AP63205WU" (at 68.58 156.21 0)
@@ -2502,7 +2502,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "U403") (unit 1)
+          (reference "U703") (unit 1)
         )
       )
     )
@@ -2511,7 +2511,7 @@
   (symbol (lib_id "power:GND") (at 168.91 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8dbad36a-5669-4508-8344-3ddbe11b0e57)
-    (property "Reference" "#PWR0410" (at 168.91 138.43 0)
+    (property "Reference" "#PWR0710" (at 168.91 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 137.16 0)
@@ -2527,7 +2527,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0410") (unit 1)
+          (reference "#PWR0710") (unit 1)
         )
       )
     )
@@ -2536,7 +2536,7 @@
   (symbol (lib_id "Device:C_Small") (at 127 170.18 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e9669d0-8726-4973-aace-8f087382f92c)
-    (property "Reference" "C409" (at 124.46 168.91 0)
+    (property "Reference" "C709" (at 124.46 168.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22uF/16V(20%)" (at 124.46 171.4436 0)
@@ -2556,7 +2556,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "C409") (unit 1)
+          (reference "C709") (unit 1)
         )
       )
     )
@@ -2565,7 +2565,7 @@
   (symbol (lib_id "Device:C_Small") (at 182.88 125.73 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9357c62c-11b9-48f7-a9f1-92a7a784e86e)
-    (property "Reference" "C404" (at 189.23 124.4536 0)
+    (property "Reference" "C704" (at 189.23 124.4536 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22uF/16V(20%)" (at 185.42 126.9936 0)
@@ -2588,7 +2588,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "C404") (unit 1)
+          (reference "C704") (unit 1)
         )
       )
     )
@@ -2597,7 +2597,7 @@
   (symbol (lib_id "Device:C_Small") (at 123.19 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95a3ee8c-d5cf-40f4-8484-8653d39916ae)
-    (property "Reference" "C405" (at 125.73 128.2763 0)
+    (property "Reference" "C705" (at 125.73 128.2763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF/25V(10%)" (at 125.73 130.8163 0)
@@ -2617,7 +2617,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "C405") (unit 1)
+          (reference "C705") (unit 1)
         )
       )
     )
@@ -2626,7 +2626,7 @@
   (symbol (lib_id "Device:C_Small") (at 190.5 74.93 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9869bab1-ba9f-48e8-8c8f-70d78012a243)
-    (property "Reference" "C402" (at 198.755 72.39 90)
+    (property "Reference" "C702" (at 198.755 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1uF/50V(10%)" (at 203.3476 74.4979 90)
@@ -2649,7 +2649,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "C402") (unit 1)
+          (reference "C702") (unit 1)
         )
       )
     )
@@ -2658,7 +2658,7 @@
   (symbol (lib_id "Device:LED") (at 140.97 166.37 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 997cb54a-b66b-43ad-a600-5d20fbc9aa69)
-    (property "Reference" "D404" (at 144.78 166.6875 90)
+    (property "Reference" "D704" (at 144.78 166.6875 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED_5V" (at 144.78 169.2275 90)
@@ -2678,7 +2678,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "D404") (unit 1)
+          (reference "D704") (unit 1)
         )
       )
     )
@@ -2687,7 +2687,7 @@
   (symbol (lib_id "Device:R") (at 190.5 113.03 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a7288951-4180-448f-b56d-8e8ced3b4b50)
-    (property "Reference" "R407" (at 190.5 119.38 90)
+    (property "Reference" "R707" (at 190.5 119.38 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.3R(5%)" (at 190.5 116.84 90)
@@ -2710,7 +2710,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "R407") (unit 1)
+          (reference "R707") (unit 1)
         )
       )
     )
@@ -2719,7 +2719,7 @@
   (symbol (lib_id "Device:C_Small") (at 55.88 170.18 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad84c451-7d23-41e5-a73e-2d40b758caf0)
-    (property "Reference" "C408" (at 53.34 168.9163 0)
+    (property "Reference" "C708" (at 53.34 168.9163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF/25V(10%)" (at 53.34 171.4563 0)
@@ -2739,7 +2739,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "C408") (unit 1)
+          (reference "C708") (unit 1)
         )
       )
     )
@@ -2748,7 +2748,7 @@
   (symbol (lib_id "Device:R") (at 140.97 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae9c1b89-829a-4a56-8f2c-8c5692dfdf52)
-    (property "Reference" "R413" (at 143.51 173.99 0)
+    (property "Reference" "R713" (at 143.51 173.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2K" (at 143.51 176.53 0)
@@ -2768,7 +2768,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "R413") (unit 1)
+          (reference "R713") (unit 1)
         )
       )
     )
@@ -2777,7 +2777,7 @@
   (symbol (lib_id "power:GND") (at 104.14 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid afc2ead9-28d9-412f-a1ad-baef402cd0e6)
-    (property "Reference" "#PWR0417" (at 104.14 179.07 0)
+    (property "Reference" "#PWR0717" (at 104.14 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 104.14 177.8 0)
@@ -2793,7 +2793,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0417") (unit 1)
+          (reference "#PWR0717") (unit 1)
         )
       )
     )
@@ -2802,7 +2802,7 @@
   (symbol (lib_id "power:GND") (at 60.325 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1f6bc85-9615-418c-9bcf-7fd25868179c)
-    (property "Reference" "#PWR0409" (at 60.325 138.43 0)
+    (property "Reference" "#PWR0709" (at 60.325 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 60.325 137.16 0)
@@ -2818,7 +2818,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0409") (unit 1)
+          (reference "#PWR0709") (unit 1)
         )
       )
     )
@@ -2827,7 +2827,7 @@
   (symbol (lib_id "power:GND") (at 140.97 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b60d0a3a-8ec3-47a1-95f7-d46d184fdf67)
-    (property "Reference" "#PWR0419" (at 140.97 186.69 0)
+    (property "Reference" "#PWR0719" (at 140.97 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 140.97 185.42 0)
@@ -2843,7 +2843,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0419") (unit 1)
+          (reference "#PWR0719") (unit 1)
         )
       )
     )
@@ -2852,7 +2852,7 @@
   (symbol (lib_id "power:GND") (at 55.88 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b6c17854-c6e5-4eb0-a1f1-6e9ecb99dcc0)
-    (property "Reference" "#PWR0415" (at 55.88 179.07 0)
+    (property "Reference" "#PWR0715" (at 55.88 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 177.8 0)
@@ -2868,7 +2868,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0415") (unit 1)
+          (reference "#PWR0715") (unit 1)
         )
       )
     )
@@ -2877,7 +2877,7 @@
   (symbol (lib_id "Device:L") (at 96.52 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9555e0d-eac0-455f-9006-7c609ae165c2)
-    (property "Reference" "L402" (at 96.52 156.21 90)
+    (property "Reference" "L702" (at 96.52 156.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7uH/2.85A" (at 96.52 158.75 90)
@@ -2900,7 +2900,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "L402") (unit 1)
+          (reference "L702") (unit 1)
         )
       )
     )
@@ -2909,7 +2909,7 @@
   (symbol (lib_id "Device:L") (at 162.56 113.03 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb083b22-62ff-4756-a20c-249a3d71d3a2)
-    (property "Reference" "L401" (at 162.56 107.95 90)
+    (property "Reference" "L701" (at 162.56 107.95 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15uH/1A" (at 162.56 110.49 90)
@@ -2929,7 +2929,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "L401") (unit 1)
+          (reference "L701") (unit 1)
         )
       )
     )
@@ -2938,7 +2938,7 @@
   (symbol (lib_id "Device:R") (at 194.945 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c4454719-3602-49c8-8278-873d3ff83b0f)
-    (property "Reference" "R405" (at 197.485 80.01 0)
+    (property "Reference" "R705" (at 197.485 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10R(1%)" (at 197.485 82.55 0)
@@ -2958,7 +2958,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "R405") (unit 1)
+          (reference "R705") (unit 1)
         )
       )
     )
@@ -2967,7 +2967,7 @@
   (symbol (lib_id "power:GND") (at 151.13 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce7d878c-3735-480e-8478-a27e37803762)
-    (property "Reference" "#PWR0404" (at 151.13 69.85 0)
+    (property "Reference" "#PWR0704" (at 151.13 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 151.13 68.58 0)
@@ -2983,7 +2983,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0404") (unit 1)
+          (reference "#PWR0704") (unit 1)
         )
       )
     )
@@ -2992,7 +2992,7 @@
   (symbol (lib_id "power:GND") (at 148.59 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc2d6b49-d676-48ac-9221-251d1301a135)
-    (property "Reference" "#PWR0414" (at 148.59 139.7 0)
+    (property "Reference" "#PWR0714" (at 148.59 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 148.59 138.43 0)
@@ -3008,7 +3008,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0414") (unit 1)
+          (reference "#PWR0714") (unit 1)
         )
       )
     )
@@ -3017,7 +3017,7 @@
   (symbol (lib_id "Device:R") (at 106.045 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0f79028-689e-46fd-b0b0-c042e199d676)
-    (property "Reference" "R403" (at 108.585 80.01 0)
+    (property "Reference" "R703" (at 108.585 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10R(1%)" (at 108.585 82.55 0)
@@ -3037,7 +3037,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "R403") (unit 1)
+          (reference "R703") (unit 1)
         )
       )
     )
@@ -3046,7 +3046,7 @@
   (symbol (lib_id "Diode:SD05_SOD323") (at 60.325 127 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e15fb6f6-ab29-481d-8bab-cd4404ac2fbd)
-    (property "Reference" "D403" (at 62.865 125.73 90)
+    (property "Reference" "D703" (at 62.865 125.73 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SMBJ20A" (at 62.865 128.27 90)
@@ -3066,7 +3066,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "D403") (unit 1)
+          (reference "D703") (unit 1)
         )
       )
     )
@@ -3075,7 +3075,7 @@
   (symbol (lib_id "Device:R") (at 153.67 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8121cba-b2dc-4e64-8c0d-b4f8f9af50c3)
-    (property "Reference" "R401" (at 156.21 30.48 0)
+    (property "Reference" "R701" (at 156.21 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K(1%)" (at 156.21 33.02 0)
@@ -3095,7 +3095,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "R401") (unit 1)
+          (reference "R701") (unit 1)
         )
       )
     )
@@ -3104,7 +3104,7 @@
   (symbol (lib_id "power:GND") (at 139.7 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ec789043-874b-4f36-b4c9-fd6ecc40f470)
-    (property "Reference" "#PWR0403" (at 139.7 69.85 0)
+    (property "Reference" "#PWR0703" (at 139.7 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 139.7 68.58 0)
@@ -3120,7 +3120,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0403") (unit 1)
+          (reference "#PWR0703") (unit 1)
         )
       )
     )
@@ -3129,7 +3129,7 @@
   (symbol (lib_id "power:GND") (at 212.725 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed087aee-abe8-4708-bbd8-6b1097bdc9bf)
-    (property "Reference" "#PWR0412" (at 212.725 138.43 0)
+    (property "Reference" "#PWR0712" (at 212.725 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 212.725 135.89 0)
@@ -3145,7 +3145,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "#PWR0412") (unit 1)
+          (reference "#PWR0712") (unit 1)
         )
       )
     )
@@ -3154,7 +3154,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 148.59 124.46 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eeb78461-548b-4558-8c9c-62221a6a4a6d)
-    (property "Reference" "D402" (at 151.13 122.8725 90)
+    (property "Reference" "D702" (at 151.13 122.8725 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "B230A-13-F" (at 151.13 125.4125 90)
@@ -3177,7 +3177,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "D402") (unit 1)
+          (reference "D702") (unit 1)
         )
       )
     )
@@ -3186,7 +3186,7 @@
   (symbol (lib_id "Device:C_Small") (at 87.63 163.83 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fe6eb7c5-acdd-4167-8b56-33607e75c7c4)
-    (property "Reference" "C406" (at 87.63 171.45 90)
+    (property "Reference" "C706" (at 87.63 171.45 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF/50V(10%)" (at 87.63 168.91 90)
@@ -3206,7 +3206,7 @@
     (instances
       (project "CycloRadarDemoKit"
         (path "/c2cd7ca4-4652-4b3d-a3a8-1cfa66cb11e9/8e86b850-15ce-40c4-bda7-5d0afa1e377d"
-          (reference "C406") (unit 1)
+          (reference "C706") (unit 1)
         )
       )
     )
