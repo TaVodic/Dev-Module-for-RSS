@@ -13,6 +13,8 @@ RMII
 	JLC04161H-3313 w = 0.1565mm JLCPCB (w = 0.1838mm KiCad) 
 	JLC04161H-3313 55ohm w = 0.13mm JLCPCB (w = 0.15mm KiCad)
 
+	všetky cesty by mali byť na oboch stranách rovnako dlhé
+
 	https://www.nxp.com/docs/en/application-note/AN13335.pdf
 
 ETH conn RJ45
@@ -26,8 +28,27 @@ MDI - Twisted pair
 
 	Calculated - W:0.15 S:0.15 - Zdiff:100ohm
 
-vias can be inside PAD
-fencing vias - via okolo plošáku
+vias can be inside PAD - NEROBIŤ
+
+Power
+	Power plochy 3.3 hlavne
+	fencing vias - via okolo plošáku
+
+	PHY IP101 - 500mA - 0.2mm
+	Maximum power values:
+	CP2102N 3V3 10mA (USB)
+	ESP32 3V3 500mA
+	MPU 3V3 4mA
+	D52 ANT 3V3 20mA
+	IP101 PHY 3V3 500mA
+	PMICs 3.3V 0.5mA + 0.4mA + 0.03mA + 0.3mA = 1.3mA
+	RESERVE: 200mA\n3V3 1.23A = 4W -> (94%)@4.24W
+
+	LEDs 5V 720mA = 3.6W + 4.24W -> (87%)@8.8592W
+	Radar 12V 500mA = 6W -> (90%)@6.6W 
+
+	15.46W -> 	20V @ 773mA
+	16.5V @ 937mA\n\n\n
 
 
 
@@ -37,3 +58,12 @@ coupled microstrip - dva na povrchu
 stripline - jeden v nutri PCB
 stub - pahýľ 
 skew compensation - (kompenzacia nesymetrie) - meander
+
+
+LEDS:
+	2.75
+	-102 -115
+
+	16
+	-117.5
+
