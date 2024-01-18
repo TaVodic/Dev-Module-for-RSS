@@ -1,0 +1,39 @@
+JLC04161H-3313 E=4.1
+
+RMII 	
+	50ohm (60ohm)  impedance-controlled single-end traces
+	length matched (less than 3mm)
+	angle max 45deg
+	as short as posible
+	ground polygon around traces, many equaly placed vias
+	space between signals at lest of the witdth of the signal (idealy twice the height of the substrate)
+	TX and RX separate
+
+	JLC04161H-7628 w = 0.3493mm JLCPCB (w = 0.36849mm KiCad) 
+	JLC04161H-3313 w = 0.1565mm JLCPCB (w = 0.1838mm KiCad) 
+	JLC04161H-3313 55ohm w = 0.13mm JLCPCB (w = 0.15mm KiCad)
+
+	https://www.nxp.com/docs/en/application-note/AN13335.pdf
+
+ETH conn RJ45
+	chassis Ground plane around RJ45 ???
+
+MDI - Twisted pair
+	Traces between PHY device, transformer and RJ45 connector should be
+	designed with a differential impedance of 100Ω±10% and with an
+	impedance of 50Ω related to GND.
+	differentiál impedance 100ohm
+
+	Calculated - W:0.15 S:0.15 - Zdiff:100ohm
+
+vias can be inside PAD
+fencing vias - via okolo plošáku
+
+
+
+
+microstrip - jeden na povrchu
+coupled microstrip - dva na povrchu
+stripline - jeden v nutri PCB
+stub - pahýľ 
+skew compensation - (kompenzacia nesymetrie) - meander
