@@ -1492,7 +1492,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_3_Bridged12") (at 236.22 59.69 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0763bd6e-ee8c-47fb-80e1-825c0110f14f)
     (property "Reference" "JP403" (at 238.76 58.42 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1751,7 +1751,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 135.89 83.82 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d4bee96-83d4-4b2a-96b8-2572786a7d1f)
     (property "Reference" "TP403" (at 130.81 82.55 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1776,7 +1776,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_3_Bridged12") (at 196.85 59.69 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5bee3ecb-1655-4e39-b9b5-fe5345fbf2f6)
     (property "Reference" "JP401" (at 199.39 58.42 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1965,7 +1965,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 193.04 76.2 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93abacc8-1a2c-4a08-9f62-89873d5df88d)
     (property "Reference" "TP401" (at 198.12 74.93 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2066,7 +2066,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_3_Bridged12") (at 217.17 59.69 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a51212a2-11e8-47da-926d-b6214a6e2c45)
     (property "Reference" "JP402" (at 219.71 58.42 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2118,7 +2118,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 135.89 78.74 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b660e0ae-c03f-4b97-993d-b5024abd10cd)
     (property "Reference" "TP402" (at 132.588 73.66 90)
       (effects (font (size 1.27 1.27)))

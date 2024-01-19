@@ -2229,7 +2229,7 @@
     (property "Value" "USB_C_Receptacle_USB2.0" (at 69.85 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_USB:TYPE-C-SMD_YIYUAN_YTC-TC16-273A1" (at 73.66 101.6 0)
+    (property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110" (at 73.66 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2211151030_YIYUAN-YTC-TC16-273A1_C5260486.pdf" (at 73.66 101.6 0)
