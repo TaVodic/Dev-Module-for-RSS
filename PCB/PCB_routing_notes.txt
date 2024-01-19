@@ -15,6 +15,12 @@ RMII
 
 	všetky cesty by mali byť na oboch stranách rovnako dlhé
 
+	All connections are intended to be point-to-point connections on PCBs. Typically these
+	connections can be treated as electrically short paths and transmission line reflections
+	can be safely ignored. Neither a connector nor a characteristic impedance for electrically long PCB traces is within the scope of this specification. http://ebook.pldworld.com/_eBook/-Telecommunications,Networks-/TCPIP/RMII/rmii_rev12.
+
+	AKktuálny delay na RMII cestách - 5.7ps/mm
+
 	https://www.nxp.com/docs/en/application-note/AN13335.pdf
 
 ETH conn RJ45
@@ -34,17 +40,16 @@ Power
 	Power plochy 3.3 hlavne
 	fencing vias - via okolo plošáku
 
-	PHY IP101 - 500mA - 0.2mm
 	Maximum power values:
 	CP2102N 3V3 10mA (USB)
-	ESP32 3V3 500mA
+	ESP32 3V3 500mA										= 0.2mm/0.3mm
 	MPU 3V3 4mA
 	D52 ANT 3V3 20mA
-	IP101 PHY 3V3 500mA
+	IP101 PHY 3V3 500mA 								= 0.2mm/0.3mm
 	PMICs 3.3V 0.5mA + 0.4mA + 0.03mA + 0.3mA = 1.3mA
-	RESERVE: 200mA\n3V3 1.23A = 4W -> (94%)@4.24W
+	RESERVE: 200mA\n3V3 1.23A = 4W -> (94%)@4.24W       = 0.4mm/1.2mm
 
-	LEDs 5V 720mA = 3.6W + 4.24W -> (87%)@8.8592W
+	LEDs 5V 720mA = 3.6W + 4.24W -> (87%)@8.8592W       = 0.3mm/0.5mm
 	Radar 12V 500mA = 6W -> (90%)@6.6W 
 
 	15.46W -> 	20V @ 773mA
