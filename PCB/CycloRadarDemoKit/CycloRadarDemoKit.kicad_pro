@@ -175,8 +175,10 @@
         0.0,
         0.15,
         0.2,
+        0.3,
         0.5,
-        1.0
+        1.0,
+        1.2
       ],
       "via_dimensions": [
         {
@@ -496,7 +498,7 @@
         "line_style": 0,
         "microvia_diameter": 0.0,
         "microvia_drill": 0.0,
-        "name": "+3V3_PHY",
+        "name": "+3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
@@ -657,8 +659,12 @@
         "pattern": "+5V"
       },
       {
-        "netclass": "+3V3_PHY",
+        "netclass": "+3V3",
         "pattern": "+3V3_PHY"
+      },
+      {
+        "netclass": "+3V3",
+        "pattern": "+3V3"
       }
     ]
   },
