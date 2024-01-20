@@ -177,8 +177,7 @@
         0.2,
         0.3,
         0.5,
-        1.0,
-        1.2
+        1.0
       ],
       "via_dimensions": [
         {
@@ -481,8 +480,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.4,
-        "via_drill": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -532,8 +531,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
-        "via_diameter": 0.4,
-        "via_drill": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -555,7 +554,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.13,
+        "clearance": 0.15,
         "diff_pair_gap": 0.0,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.0,
@@ -565,9 +564,9 @@
         "name": "RMII",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.13,
-        "via_diameter": 0.4,
-        "via_drill": 0.2,
+        "track_width": 0.15,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -583,8 +582,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.4,
-        "via_drill": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
