@@ -72,9 +72,10 @@ Coplanar: a trace configuration where grounded copper pour is included on the sa
 
 
 LEDS cooridantes:
-	2.75
-	-102 -115
+	2.75 	15.5
 
-	16
-	-117.5
+	55 		2.75
+	57.5 	15.5
 
+	2.75	83.5
+	2.75	95.8
