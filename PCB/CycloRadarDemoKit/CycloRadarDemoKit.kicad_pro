@@ -177,7 +177,8 @@
         0.2,
         0.3,
         0.5,
-        1.0
+        1.0,
+        1.5
       ],
       "via_dimensions": [
         {
@@ -513,9 +514,9 @@
         "name": "+5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "via_diameter": 0.66,
-        "via_drill": 0.4,
+        "track_width": 0.6,
+        "via_diameter": 0.7,
+        "via_drill": 0.5,
         "wire_width": 6
       },
       {
@@ -672,6 +673,14 @@
       {
         "netclass": "+5V",
         "pattern": "/5V + 3V3/USB 5V"
+      },
+      {
+        "netclass": "+5V",
+        "pattern": "/USB/IN_5V"
+      },
+      {
+        "netclass": "+5V",
+        "pattern": "/5V + 3V3/USB 5V"
       }
     ]
   },
@@ -681,7 +690,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "C:/Users/Martin/Documents/Creo/ALPS_RSS_devKit/CycloRadarDemoKit_v11.step",
+      "step": "C:/Users/Martin/Documents/Creo/ALPS_RSS_devKit/CycloRadarDemoKit_v12.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
