@@ -1377,6 +1377,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4989a8e7-c243-4833-9ccf-66edb2a5f829)
   )
+  (text "https://datasheet.lcsc.com/lcsc/2108132230_TECH-PUBLIC-USBLC6-2SC6_C2827654.pdf"
+    (at 40.64 139.7 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6f285cc3-5d04-4dfe-8b8f-c0257a973099)
+  )
 
   (label "DN" (at 100.33 101.6 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1684,7 +1689,7 @@
     (property "Datasheet" "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" (at 158.75 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C964632" (at 157.48 109.22 0)
+    (property "LCSC" "C969151" (at 157.48 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "4" (uuid 0241e5e3-4a40-4f50-9d6a-5e79f2bcb6a0))

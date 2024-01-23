@@ -1248,7 +1248,7 @@
     (property "Reference" "R101" (at 217.17 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "20K(5%)" (at 217.17 54.61 0)
+    (property "Value" "20K(1%)" (at 217.17 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 221.488 53.34 90)
