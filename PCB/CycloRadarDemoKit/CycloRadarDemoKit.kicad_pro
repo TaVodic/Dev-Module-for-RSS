@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.6,
-          "height": 2.4,
-          "width": 2.4
+          "drill": 0.0,
+          "height": 1.9,
+          "width": 1.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -516,8 +516,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6,
-        "via_diameter": 0.7,
-        "via_drill": 0.5,
+        "via_diameter": 0.66,
+        "via_drill": 0.4,
         "wire_width": 6
       },
       {
@@ -665,11 +665,11 @@
       },
       {
         "netclass": "USB",
-        "pattern": "/USB/DP"
+        "pattern": "/USB/DOP"
       },
       {
         "netclass": "USB",
-        "pattern": "/USB/DN"
+        "pattern": "/USB/DON"
       },
       {
         "netclass": "+5V",
@@ -682,6 +682,14 @@
       {
         "netclass": "+5V",
         "pattern": "/5V + 3V3/USB 5V"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB/DIN"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB/DIP"
       }
     ]
   },
