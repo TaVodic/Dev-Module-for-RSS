@@ -3,7 +3,7 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
-        "board_outline_line_width": 0.09999999999999999,
+        "board_outline_line_width": 0.19999999999999998,
         "copper_line_width": 0.19999999999999998,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
@@ -34,15 +34,15 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.9,
-          "width": 1.2
+          "drill": 2.7,
+          "height": 4.5,
+          "width": 4.5
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.19999999999999998,
         "silk_text_italic": false,
-        "silk_text_size_h": 0.7999999999999999,
-        "silk_text_size_v": 0.7999999999999999,
-        "silk_text_thickness": 0.15,
+        "silk_text_size_h": 0.7,
+        "silk_text_size_v": 0.7,
+        "silk_text_thickness": 0.16,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.3
@@ -120,7 +120,7 @@
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 1.0,
+        "min_text_height": 0.7,
         "min_text_thickness": 0.153,
         "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.09,
@@ -699,7 +699,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "C:/Users/Martin/Documents/Creo/ALPS_RSS_devKit/CycloRadarDemoKit_v13.step",
+      "step": "../../3D_design/ALPS_RSS_devKit/CycloRadarDemoKit_v14.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
