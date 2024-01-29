@@ -5,11 +5,15 @@
   (paper "A4")
 
   (title_block
-    (title "Radar Safety Sensor")
-    (date "2023-12-20")
-    (rev "Rev.: 1.0")
-    (company "ALPS Electric Czech, s.r.o.")
-    (comment 1 "Designed by Martin Tavoda")
+    (title "${TITLE}")
+    (date "${DATE}")
+    (rev "${REVISION}")
+    (company "${COMPANY}")
+    (comment 1 "${CREATOR}")
+    (comment 2 "${APPROVER}")
+    (comment 3 "${STATUS}")
+    (comment 4 "${LANG}")
+    (comment 5 "${NOTE}")
   )
 
   (lib_symbols
@@ -1475,10 +1479,20 @@
     (uuid feb470ee-8b4e-41ec-91bc-500f11ec2d46)
   )
 
+  (rectangle (start 34.29 47.625) (end 252.73 147.955)
+    (stroke (width 0) (type dash))
+    (fill (type none))
+    (uuid a73b5236-cfa8-4734-aa17-c8dffdee83ff)
+  )
+
   (text "Notes:\n+3V3_USB - local net only for CP2102\nVBUS - 5V net from USB to power multiplexer"
     (at 85.09 58.42 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4989a8e7-c243-4833-9ccf-66edb2a5f829)
+  )
+  (text "USB controller" (at 39.37 55.245 0)
+    (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
+    (uuid cb948622-aeae-4a26-9ea8-63edc636f62b)
   )
 
   (label "DON" (at 106.68 97.79 0) (fields_autoplaced)

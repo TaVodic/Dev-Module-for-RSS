@@ -5,6 +5,18 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "${TITLE}")
+    (date "${DATE}")
+    (rev "${REVISION}")
+    (company "${COMPANY}")
+    (comment 1 "${CREATOR}")
+    (comment 2 "${APPROVER}")
+    (comment 3 "${STATUS}")
+    (comment 4 "${LANG}")
+    (comment 5 "${NOTE}")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (1 "In1.Cu" power)
@@ -85,6 +97,17 @@
       (outputdirectory "")
     )
   )
+
+  (property "APPROVER" "J. Giertl")
+  (property "COMPANY" "ALPS Electric Czech, s.r.o.")
+  (property "CREATOR" "M. Tavoda")
+  (property "DATE" "2024-01-29")
+  (property "LANG" "EN")
+  (property "NOTE" "")
+  (property "REVISION" "1.0.0")
+  (property "STATUS" "FINAL")
+  (property "SUBTITLE" "RSS development & demonstration module")
+  (property "TITLE" "Radar Safety Sensor ")
 
   (net 0 "")
   (net 1 "/5V + 3V3/USB 5V")
@@ -4791,7 +4814,7 @@
 
   (footprint "Socket:FEEC_logo" (layer "F.Cu")
     (tstamp 627b5f68-55c2-48a0-8e4d-6022908237ae)
-    (at 170.4 123.875 90)
+    (at 168.65 123.875 90)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0 90 unlocked) (layer "F.SilkS") hide
         (effects (font (size 0.7 0.7) (thickness 0.16)))
@@ -13555,7 +13578,7 @@
 
   (footprint "LOGO" (layer "F.Cu")
     (tstamp fb69682a-eb33-46d4-abb5-799b2710387b)
-    (at 165.9 128.375 90)
+    (at 164.7 128.325 90)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0 90 unlocked) (layer "F.SilkS") hide
         (effects (font (size 0.7 0.7) (thickness 0.16)))
@@ -16474,6 +16497,9 @@
   (gr_text "Radar" (at 162.3 93.725) (layer "B.SilkS") (tstamp 87d3bc76-54b6-4ac6-8a7d-eabc7d116426)
     (effects (font (size 1.5 1.5) (thickness 0.2) bold) (justify left bottom mirror))
   )
+  (gr_text "${DATE}, v${REVISION}" (at 146.598842 111.775) (layer "B.SilkS") (tstamp 8937f1d3-bf91-471f-9982-0b0832deb056)
+    (effects (font (size 0.7 0.7) (thickness 0.16) bold) (justify left bottom mirror))
+  )
   (gr_text "GND" (at 162.75 143.025) (layer "B.SilkS") (tstamp 8b45bad3-fc2e-4512-8d7c-43495a591868)
     (effects (font (size 1 1) (thickness 0.153)) (justify mirror))
   )
@@ -18415,6 +18441,9 @@
   )
   (gr_text "U0TXD" (at 158.05 90.425 90) (layer "F.SilkS") (tstamp 3d297605-b080-4170-a800-5e56b8ad956b)
     (effects (font (size 0.7 0.7) (thickness 0.16)) (justify left))
+  )
+  (gr_text "${DATE}, v${REVISION}" (at 172.45 129.375 90) (layer "F.SilkS") (tstamp 415fa21f-4ed1-4bc0-aa35-a390a057e242)
+    (effects (font (size 0.7 0.7) (thickness 0.16) bold) (justify left bottom))
   )
   (gr_text "RX" (at 138.65 104.425) (layer "F.SilkS") (tstamp 4ebabbd4-e064-41b3-87e6-100c0e893026)
     (effects (font (size 0.7 0.7) (thickness 0.16)) (justify left bottom))
@@ -38291,12 +38320,11 @@
         (xy 119.414922 104.825001)
         (xy 119.433153 104.963486)
         (xy 119.433154 104.963488)
-        (xy 119.465821 105.042354)
         (xy 119.486609 105.092539)
         (xy 119.571643 105.203357)
         (xy 119.682461 105.288391)
         (xy 119.811512 105.341846)
-        (xy 119.842997 105.345991)
+        (xy 119.880756 105.350962)
         (xy 119.949999 105.360078)
         (xy 119.95 105.360078)
         (xy 119.950001 105.360078)

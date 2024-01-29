@@ -449,7 +449,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -702,7 +702,7 @@
       "step": "../../3D_design/ALPS_RSS_devKit/CycloRadarDemoKit_v14.step",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "S:/ALPS/GITLAB/kicad-templates/pagelayout_logo.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 500,
@@ -736,7 +736,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "S:\\ALPS\\GITLAB\\kicad-templates\\pagelayout_logo.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -780,5 +780,16 @@
       "5V + 3V3"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "APPROVER": "J. Giertl",
+    "COMPANY": "ALPS Electric Czech, s.r.o.",
+    "CREATOR": "M. Tavoda",
+    "DATE": "2024-01-29",
+    "LANG": "EN",
+    "NOTE": "",
+    "REVISION": "1.0.0",
+    "STATUS": "FINAL",
+    "SUBTITLE": "RSS development & demonstration module",
+    "TITLE": "Radar Safety Sensor "
+  }
 }
