@@ -1819,7 +1819,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 219.71 105.41 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 8f3a5e87-99f4-4e8c-b74c-10f9e2947d82)
     (property "Reference" "R106" (at 217.17 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1831,9 +1831,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 219.71 105.41 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25804" (at 219.71 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 239bbb7c-8fad-4faf-a164-3817940b9ad0))
