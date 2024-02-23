@@ -17,6 +17,12 @@
 * 100BASE-T1 connector
 * ANT+ module -->
 
+The RSS project includes two software repositories:
+
+* ROS2 package as emulation of radar procesing unit and RSS demo module [(RSS_ROS2)](https://gitext.alps.cz/240703/rss_ros2)
+* ESP-IDF project for ESP32 implementing uROS and all hardware peripherals [(RSS_uROS)](https://gitext.alps.cz/240703/rss_uros)
+
+
 ### Thesis (read-only)
 https://www.overleaf.com/read/hrqsdpdkjjvk
 
