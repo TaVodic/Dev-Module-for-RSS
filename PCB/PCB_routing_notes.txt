@@ -70,6 +70,8 @@ Differential traces: two traces that are driven together with equal and opposite
 Non-coplanar: a trace configuration where there is no additional copper on the same layer as the trace being routed
 Coplanar: a trace configuration where grounded copper pour is included on the same layer as the trace
 
+Min clearence 3*0.1mm
+
 
 LEDS cooridantes:
 	2.75 	15.5
