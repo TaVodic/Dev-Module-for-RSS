@@ -699,7 +699,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../../3D_design/ALPS_RSS_devKit/CycloRadarDemoKit_v14.step",
+      "step": "../../3D_design/ALPS_RSS_devKit/CycloRadarDemoKit_v15.step",
       "vrml": ""
     },
     "page_layout_descr_file": "S:/ALPS/GITLAB/kicad-templates/pagelayout_logo.kicad_wks"
