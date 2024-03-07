@@ -22,35 +22,20 @@ The RSS project includes two software repositories:
 * ROS2 package as emulation of radar procesing unit and RSS demo module [(RSS_ROS2)](https://gitext.alps.cz/240703/rss_ros2)
 * ESP-IDF project for ESP32 implementing uROS and all hardware peripherals [(RSS_uROS)](https://gitext.alps.cz/240703/rss_uros)
 
+### [Schematic design](documents/RSS_schematic_v1.0.0.pdf)
 
-### Thesis (read-only)
-https://www.overleaf.com/read/hrqsdpdkjjvk
+### [Thesis](documents/Tavoda_semestral_thesis.pdf)
+
+### [Photo documentation](documents/photos/)
 
 ### Block diagram
 
-![](graphics/BlockDiagram-Main.svg)
+![](documents/BlockDiagram-Main.svg)
 
-### Power management
+### Power management diagram
 
-![](graphics/BlockDiagram-PowerManagement2.svg)
+![](documents/BlockDiagram-PowerManagement.svg)
 
-#### Components
+### ROS2 graph
 
-* Power multiplexor - TPS2121   
-    https://www.ti.com/lit/ds/symlink/tps2121.pdf?ts=1699904287563&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS2121
-
-
-* <del> Power monitor - MICROCHIP Dual channel PAC1952-1 VQFN16 – **Farnell**
-    https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/PAC195X-Family-Data-Sheet-DS20006539.pdf
-
-* Power monitor - TI INA3221 Triple-Channel, Shunt and Bus Voltage Monitor VQFN16
-    https://www.ti.com/lit/ds/symlink/ina3221.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1700495007519&ref_url=https%253A%252F%252Fwww.mouser.fr%252F
-
-* DC/DC 20V -> 12V RICHTEK RT8259   
-    https://www.farnell.com/datasheets/1720510.pdf
-
-* DC/DC 20V -> 5V DIODES AP63205WU  
-    https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
-
-* DC/DC 5V -> 3.3V - DIODES AP63203WU    
-    https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+![](documents/ROS2graph-RSS_graph.svg)
