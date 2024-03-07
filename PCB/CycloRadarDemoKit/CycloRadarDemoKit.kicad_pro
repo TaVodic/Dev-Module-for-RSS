@@ -741,8 +741,12 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
+<<<<<<< HEAD
       "step": "../../3D_design/ALPS_RSS_devKit/CycloRadarDemoKit_v14.step",
       "svg": "",
+=======
+      "step": "../../3D_design/ALPS_RSS_devKit/CycloRadarDemoKit_v15.step",
+>>>>>>> 4e1b62b16298a24c58e6af09e794ee0e69d26d0f
       "vrml": ""
     },
     "page_layout_descr_file": "pagelayout_logo.kicad_wks"
