@@ -738,7 +738,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "production/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../3D_design/ALPS_RSS_devKit/CycloRadarDemoKit_v14.step",

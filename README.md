@@ -26,7 +26,7 @@ The RSS project includes two software repositories:
 
 ### [Thesis](documents/Tavoda_semestral_thesis.pdf)
 
-### [Photo documentation](documents/photos/)
+### [Photo documentation](documents/visuals/)
 
 ### Block diagram
 
