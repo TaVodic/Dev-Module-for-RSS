@@ -26,6 +26,8 @@ The RSS project includes two software repositories:
 
 ### [Thesis](documents/Tavoda_semestral_thesis.pdf)
 
+### [EEICT article](documents/Development_Module_for_Radar_Safety_Sensor_in_Single_Track_Vehicles.pdf)
+
 ### [Photo documentation](documents/visuals/)
 
 ### Block diagram
